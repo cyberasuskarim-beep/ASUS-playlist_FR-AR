@@ -32,7 +32,7 @@ https://amg01821-lovetvchannels-lovetheplanetfrsamsung-samsungfr-hfam1.amagi.tv/
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG_1750862971704.png" group-title="France",CATFISH TV (720p)
 https://jmp2.uk/plu-5f8eb66537867f0007146953.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e7f224676bf00076a4d8d/colorLogoPNG.png" group-title="France",Cheers
-https://jmp2.uk/plu-65cce14060eb870008dbd003.m3u8
+https://jmp2.uk/plu-611e7f224676bf00076a4d8d.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6823648580b2665220d9e69a/colorLogoPNG-1757404141.png" group-title="France",Ciné 666 by Pluto TV
 https://jmp2.uk/plu-6823648580b2665220d9e69a.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ed1ff5c39700007e2204a/colorLogoPNG_1752228138963.png" group-title="France",Ciné Action by Pluto TV
@@ -108,11 +108,11 @@ https://5f5ef28097114.streamlock.net/tixtv/smil:web.smil/playlist.m3u8#943
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99h8F1y.jpeg" group-title="France",Monte Carlo Digital Television (1080p)
 https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="France",MTV
-http://99.27.51.147:8080/MTV/index.m3u8
+https://ma.anixa.tv/clips/stream/mtv/playlist.php
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="France",MTV CLASSICS
 https://jmp2.uk/plu-5f92b56a367e170007cd43f4.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="France",One Piece
-https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8
+https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png" group-title="France",Pluto TV 90's Classics
 https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/691b3669c48674840c3b832a/colorLogoPNG_1778491402325.png" group-title="France",Pluto TV ANIME GO!
@@ -132,13 +132,13 @@ https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ed3892ed7bb000741a1d2/colorLogoPNG.png" group-title="France",Pluto TV Inside
 https://jmp2.uk/plu-5f8ed3892ed7bb000741a1d2.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f1aa9bcd8160700076d45d1/colorLogoPNG_1747402544424.png" group-title="France",Pluto TV Junior (720p)
-https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8
+https://jmp2.uk/plu-5f1aa9bcd8160700076d45d1.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" group-title="France",Pluto TV Kids Classics (720p)
-https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8
+https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e6ddc7fcd580007d1eb5f/colorLogoPNG_1748852055317.png" group-title="France",Pluto TV Kids Club
 https://jmp2.uk/plu-611e6ddc7fcd580007d1eb5f.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f98487036af340008da1e37/colorLogoPNG.png" group-title="France",Pluto TV Paranormal
-https://jmp2.uk/plu-5f8ed9461b35690007a0bc3a.m3u8
+https://jmp2.uk/plu-5f98487036af340008da1e37.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ed4dbf6bb0800071ffbcb/colorLogoPNG.png" group-title="France",Pluto TV Polar
 https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png" group-title="France",Pluto TV Reality
@@ -148,11 +148,11 @@ https://jmp2.uk/plu-611e6a9b4bb5790007a6f0f8.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/625ec7a1c853fd00073b38fd/colorLogoPNG_1775048560569.png" group-title="France",Pluto TV Séries Fantastiques
 https://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="France",Pluto TV Snooker 900 (720p)
-https://jmp2.uk/plu-66fd35e44ca31f0008060b77.m3u8
+https://jmp2.uk/plu-68ac5543a1ac0c90f2c8943e.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/652557d93fd33c000802f995/colorLogoPNG_1733440546104.png" group-title="France",Pluto TV Super Kids
 https://jmp2.uk/plu-652557d93fd33c000802f995.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png" group-title="France",Pluto TV Teen (720p)
-https://jmp2.uk/plu-5f8eb99ff17815000784a3b0.m3u8
+https://jmp2.uk/plu-63eb944dc111bc0008fe7021.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/699865ccac36b147e74619fe/colorLogoPNG_1779788356699.png" group-title="France",Pluto TV Téléréalité France
 https://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6880aa28164eb4890282e803/colorLogoPNG_1760522020317.png" group-title="France",Pluto TV Toons (720p)
@@ -244,7 +244,7 @@ https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/YnUZd3W.png" group-title="France",Zylo Ciné Nanar (1080p)
 https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/tteOFkL.png" group-title="France",Zylo Ciné Western (1080p)
-https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
+https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MP34aaj.png" group-title="France",Zylo Emotion' L (1080p)
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fEjNAps.png" group-title="France",Zylo Fréquence Novelas (1080p)
@@ -262,7 +262,7 @@ https://jmp2.uk/plu-60549d97cd7b090007c73314.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/I1w7rFb.png" group-title="Replay",Louis La Brocante
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/634fe5afece2e60007c9d8b8/colorLogoPNG.png" group-title="Replay",Mission Impossible
-https://jmp2.uk/plu-6671b21ffc3a46000857fe75.m3u8
+https://jmp2.uk/plu-634fe5afece2e60007c9d8b8.m3u8
 #EXTINF:-1 group-title="Replay",Juste pour Rire GAGS (720p)
 https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8
 #EXTINF:-1 group-title="Replay",Le Meilleur d'Arthur (1080p)
@@ -338,7 +338,7 @@ https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da6
 #EXTINF:-1 tvg-id="ADN.fr" tvg-name="ADN" tvg-logo="https://m.media-amazon.com/images/I/51s-YfZ2TlS.png" group-title="Jeunesse",ADN (1080p)
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8#978
 #EXTINF:-1 tvg-logo="https://cdn2.steamgriddb.com/logo_thumb/6af814698155afb9511dd5e91454834a.png" group-title="Jeunesse",Banijay Mr Bean Animé (1080p)
-https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/cb543d1b7f6c678a9cd43b66cef046a4f9b753fc087a8d6933fb4b926bc10f41e2e5af97b20cac7822fb0fd87f0966413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac765bdb80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad96ca8af1c56942a44ef9c43cdd40eaf83dd599a428170f909cc91a1d9ce1183d0907efb04ba31445e742d9a812e97900fe7dcca5bdafd1b5a2ef3b218c2e99c6a06c4206250fffad9b6648d62a4eb04a710fd3f9dfa35e2118c79a30aa69b3cc86d0f2723335287cb557233a1ebb483f53071cb0e001611bc011ecba36e1364c663cb362a3684f4c511cea47ff3e476d5e5394f7da81922ea34a45d10cac268bc5ccefa48be5e5a34434e6ca75bb0936eda66fc74afc716334f77e8ccf0b4a5abd644396e4387cf0b9a435bf1ec828ddb012cd920356ea83697085e2cfb3d622ab176b9826a38c0662b952531fe6f308269f5ac63a0f48cab556df596ec6acb42c3f94adeff09ac2d1b5c01b8fd651f66446fdfe3634261299a0bb49d9aaf274933edf1ccecc91c6d546e59015acbc7e377d4df907053468f0273312c5e46c254a41cb56b7e0920cd11c4bf492ccb57534bc8937f0b143fec87dbe8aadfc956ba6cdcc9e94b46165060af3c162968c7cce37cf93f4e3e371db7066a47b21049008db1ccf6929461de9606fc6f8275a2105ba3278a906e20df2f9bdc7a9b9c4115acd15e/67/1280x720_3329040/index.m3u8
+https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png" group-title="Jeunesse",Bob l'éponge (720p)
 https://jmp2.uk/plu-5ffc8c345822750007e167de.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ecc1b37867f00071469e9/colorLogoPNG.png" group-title="Jeunesse",Tortues Ninja TV (720p)
