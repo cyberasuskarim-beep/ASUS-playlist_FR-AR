@@ -72,9 +72,9 @@ https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qsLLyn4.png" group-title="France",Foot+
 http://145.239.5.177/556a/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/960px-France_3_2018.svg.png" group-title="France",France 3
-http://85.14.32.26:8800/udp/239.100.10.144:5000
+https://tvradiozap.eu/tools/ft-m3u8.php/franceinfo.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France",France 4
-http://176.65.146.100:8047/play/a074/index.m3u8
+https://tvradiozap.eu/tools/ft-m3u8.php/franceinfo.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France",France 4 HD (1080p)
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="France",France 5 (720p)
@@ -188,7 +188,7 @@ https://jmp2.uk/plu-62f3f05505e621000783df2f.m3u8
 #EXTINF:-1 group-title="France",Incroyables Transformations (720p)
 https://jmp2.uk/plu-66f55d205e4a6e0008c2b92b.m3u8
 #EXTINF:-1 group-title="France",La maison France 5
-https://jmp2.uk/plu-685a999bd33909bdd7d2fb1e.m3u8
+https://d6n7ne3hzi1p.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ijlr3nmzh7cue/LaMaisonFrance5_FR.m3u8#650
 #EXTINF:-1 group-title="France",Le Meilleur de la TV Realite (1080p)
 https://amg02393-awpg-amg02393c4-rakuten-uk-3886.playouts.now.amagi.tv/playlist/amg02393-awpg-lemeilleurdelatvrealite-rakutenuk/playlist.m3u8
 #EXTINF:-1 group-title="France",Les Routes du Paradis
@@ -200,7 +200,7 @@ https://jmp2.uk/plu-697a34496f47f39d31ff8bde.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kDW0hN5.png" group-title="France",Teva (1080p)
 http://145.239.5.177/356/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="France",TF1 (576p)
-https://futbol9865.ultratv13.workers.dev/deportivo111/24.m3u8
+https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="France",TF1 HD (720p)
 http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="France",TFX (720p)
@@ -224,7 +224,7 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cwC7Q2V.png" group-title="France",TV5Monde Style (1080p) [Geo-blocked]
 https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kSdGi43.png" group-title="France",TV7 Colmar (576p)
-https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8#690
 #EXTINF:-1 tvg-logo="https://i.imgur.com/stzE1Ij.png" group-title="France",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 #EXTINF:-1 tvg-logo="https://academie.kasumay.international/ico/radioalsace.png" group-title="France",TV Alsace (1080p)
@@ -380,7 +380,7 @@ https://d1nvn92ps192dc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da
 #EXTINF:-1 tvg-id="" tvg-name="Homicide" tvg-language="fr" tvg-country="FR" tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" group-title="Documentaire",Homicide HD
 https://amg01796-fastmediabackbo-homicide-plex-xlwam.amagi.tv/playlist/amg01796-fastmediabackbo-homicide-plex/playlist.m3u8#1023
 #EXTINF:-1 tvg-id="" tvg-name="Mayday : Catastrophes aériennes" tvg-language="fr" tvg-country="FR" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/3b014c48-5490-4318-8b8e-7dc4e4861ef3/variants/49f6b89bd291722c227e312eaa7d04e4380b4c0b7611bf68a82c328d2c00fcb9-width308-quality90.webp" group-title="Documentaire",Mayday : Catastrophes aériennes HD
-https://amg01821-amg01821c40-rakuten-fr-10668.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaycatastropheaeriennefr-rakutenfr/cb553d1b7f6c678a9dd43e6ed0ef41a3d824d3b02a6f9e6c33f6058870df1f499ddba89db914a82b4ce17bce67146e5a4d009247d8780ad7967cac48240d5734c6cdd52e8be24b4daddd0c2d34b07c0e49857671ad594f32d5e0110dc51ab07a0e1ca1494d5e2082b00cb27752cc9e0a957f378bbdbe306f2c180680585ee2be5da5ef940912c76da1b802488b2e40e68a5cc8d01ca994d10e9f46d571a21c80c3f3d9820d8387c762b406b5655c157478c1d77fc39f58e4dccd3f0b7f10423476b8015df2842c18bc05247df4f8cead6cfe61bfe347a046477184052dfe56ab6db800a4e034d2c57b6bba204bcfe7546f34b4e4ae9ef23b36ff1093595d25120efba441022cea62d6313f399ee9c21a818972fcd371d0e4384d6a85f9cdfcec1b95314ff705be05b3c3c9241b2156192448e87ca48864d8289259a4c91a244e5e7e01fb3f25e7f4512a6b438a8111815d4bf993bc8ad10a34dd735b74dc208f1556378c036572b379a2da243add6f4aa4252df75d028540d7b138baf288b24868e39e8f69d75bc2994692fa0ba2687c7e07b0f92316056f75c2e16b087f28931caa8384b1395940dff6cbffd25a77526a401c5fdda2c2749cc191794458911d7735254859c750861baa6a223727c71adcbb1a34dd48705f80890b1d0c22c5b2feebeefbc347a770c0c0fb2d5d52746abe210a3561d5a2f737d83c4c7b3a10c0386d4db9084d51a8f2ede08a8b7ac18c6ec86a34f4022f78bcf56ff33fd07e28955fc98032e4ca7956fbd9/26/1280x720_3329040/index.m3u8
+https://amg01821-amg01821c40-rakuten-fr-10668.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaycatastropheaeriennefr-rakutenfr/playlist.m3u8#879
 #EXTINF:-1 tvg-id="CrimeSceneTV" tvg-name="Crime Scene TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" group-title="Documentaire",Crime Scene TV (1080p)
 https://d1bl6tskrpq9ze.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_lgchannels-cdp-springserve/e1c34c70-8645-494e-a509-3c27f965287e/4.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8Zx6dA7.png" group-title="Documentaire",Dossiers FBI
