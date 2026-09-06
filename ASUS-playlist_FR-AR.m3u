@@ -415,7 +415,7 @@ https://jmp2.uk/plu-66f55cf2483d460008f68746.m3u8
 https://d2n1sxwoprdpda.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mu1qde0x8hs1m/9a1829b1-12aa-4b1a-a0db-17affea09ac6/2.m3u8
 #EXTINF:-1 tvg-id="arte.fr" tvg-name="ARTE HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/Arte_logo.svg" group-title="Documentaire",ARTE HD (1080p)
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/arte.m3u8
-#EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://bbcnews.bbcstudios.com/media/6227/top-gear-logoapril_03_2023.png" group-title="Documentaire",BBC Top Gear France (1080p)
+#EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://i2-prod.mirror.co.uk/article7097518.ece/ALTERNATES/s1200f/0_Top-Gear-logo.jpg" group-title="Documentaire",BBC Top Gear France (1080p)
 https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Documentaire",Canal Savoir (360p)
 https://hls.savoir.media/live/stream.m3u8
