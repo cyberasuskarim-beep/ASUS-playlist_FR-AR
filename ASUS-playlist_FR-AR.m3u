@@ -353,7 +353,7 @@ https://amg01821-lovetvchannels-lovetheplanetfrsamsung-samsungfr-hfam1.amagi.tv/
 https://tvdecouverte.vedge.infomaniak.com/livecast/ik:tvdecouverte/manifest.m3u8#1383
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/Tech_%26_Co.svg/500px-Tech_%26_Co.svg.png" tvg-country="France" group-title="Documentaire",Tech&Co
 https://live-cdn-technco-lg-main-euw1.bfmb.bct.nextradiotv.com/master.m3u8#878
-#EXTINF:-1 tvg-id="" tvg-name="Destination Nature" tvg-logo="" group-title="Documentaire",Destination Nature HD
+#EXTINF:-1 tvg-id="" tvg-name="Destination Nature" tvg-logo="https://img.global.news.samsung.com/fr/wp-content/uploads/2022/10/Vignette-Destination-Nature.jpg" group-title="Documentaire",Destination Nature HD
 https://d2cl8wi5f8zf1j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0ay35jkybhd8m/DestinationNature_FR.m3u8#910
 #EXTINF:-1 tvg-id="" tvg-name="Les Secrets de nos Régions" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/bf4a91c7-9a64-4071-af09-fa4646c4005d-width200-quality90.jpeg" group-title="Documentaire",Les Secrets de nos Régions HD
 https://amg02393-awpg-amg02393c6-rakuten-uk-2460.playouts.now.amagi.tv/playlist/amg02393-awpg-lessecretsdenosregions-rakutenuk/playlist.m3u8#442
@@ -379,9 +379,9 @@ https://d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d1nvn92ps192dc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xeveldck6gfqd/ef4afab1-a492-4648-8784-4bc24073c79e/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Homicide" tvg-language="fr" tvg-country="FR" tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" group-title="Documentaire",Homicide HD
 https://amg01796-fastmediabackbo-homicide-plex-xlwam.amagi.tv/playlist/amg01796-fastmediabackbo-homicide-plex/playlist.m3u8#1023
-#EXTINF:-1 tvg-id="" tvg-name="Mayday : Catastrophes aériennes" tvg-language="fr" tvg-country="FR" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/3b014c48-5490-4318-8b8e-7dc4e4861ef3/variants/49f6b89bd291722c227e312eaa7d04e4380b4c0b7611bf68a82c328d2c00fcb9-width308-quality90.webp" group-title="Documentaire",Mayday : Catastrophes aériennes HD
+#EXTINF:-1 tvg-id="" tvg-name="Mayday : Catastrophes aériennes" tvg-language="fr" tvg-country="FR" tvg-logo="https://pbs.twimg.com/media/G581rjuWMAAqxl1.jpg" group-title="Documentaire",Mayday : Catastrophes aériennes HD
 https://amg01821-amg01821c40-rakuten-fr-10668.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaycatastropheaeriennefr-rakutenfr/playlist.m3u8#879
-#EXTINF:-1 tvg-id="CrimeSceneTV" tvg-name="Crime Scene TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" group-title="Documentaire",Crime Scene TV (1080p)
+#EXTINF:-1 tvg-id="CrimeSceneTV" tvg-name="Crime Scene TV" tvg-logo="https://tv7j.cdnartwhere.eu/cache/i3/85/7a/BcFLCsIwEADQu8xaMp8kTclZshnTwRIRSzOoIN7d975w1WlQYXc_Zm3Y0F9lBD39vdtpoT8behkNmaLwkpgaUk4bL0ZmtuauXTJzERWNKdKWJIzjBhd46LxDBSZJn7wS_P4.jpg" group-title="Documentaire",Crime Scene TV (1080p)
 https://d1bl6tskrpq9ze.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_lgchannels-cdp-springserve/e1c34c70-8645-494e-a509-3c27f965287e/4.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8Zx6dA7.png" group-title="Documentaire",Dossiers FBI
 https://jmp2.uk/plu-5f8edad922b10b000753bc37.m3u8
@@ -395,21 +395,21 @@ https://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8
 https://jmp2.uk/plu-611e7811eb9daf000764cbfd.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e771e2f5f180007002224/colorLogoPNG.png" group-title="Documentaire",Pluto TV Histoire (720p)
 https://jmp2.uk/plu-611e771e2f5f180007002224.m3u8
-#EXTINF:-1 group-title="Documentaire",Enquêtes Criminelles (720p)
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://www.lemediaplus.com/wp-content/uploads/2016/06/Enquetes-criminelles.png",Enquêtes Criminelles (720p)
 https://jmp2.uk/plu-66f55d0b5e4a6e0008c2b920.m3u8
-#EXTINF:-1 group-title="Documentaire",Enquetes de Choc (1080p)
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://time2replay.com/wp-content/uploads/2023/08/enquete-de-choc-tv-direct-1024x604.jpg",Enquetes de Choc (1080p)
 https://amg01796-fastmediabackbo-enquetes-de-choc-plex-rasaw.amagi.tv/playlist/amg01796-fastmediabackbo-enquetes-de-choc-plex/playlist.m3u8#541
-#EXTINF:-1 group-title="Documentaire",Enquêtes de Choc (720p)
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://time2replay.com/wp-content/uploads/2023/08/enquete-de-choc-tv-direct-1024x604.jpg",Enquêtes de Choc (720p)
 https://amg01796-fastmediabackbo-enquetes-de-choc-plex-rasaw.amagi.tv/playlist/amg01796-fastmediabackbo-enquetes-de-choc-plex/playlist.m3u8#541
-#EXTINF:-1 group-title="Documentaire",Travelxp France (720p)
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://www.ethnicchannels.com/images/channels/travelxp-final.jpg",Travelxp France (720p)
 https://travelxp-travelxp-4-fr.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Documentaire",Voyages+ (1080p)
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://fr-academic.com/pictures/frwiki/86/Voyage_logo_2011.png",Voyages+ (1080p)
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ff8d1526-e572-4bb5-8c93-560eb80115bf/manifest.m3u8#989
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png" group-title="Documentaire",Voyages & Saveurs (720p)
+#EXTINF:-1 tvg-logo="https://www.universfreebox.com/wp-content/uploads/2025/07/Screenshot-2025-07-03-at-08-11-04-Regarder-Voyages-Saveurs-Chaines-TV-en-direct-gratuites-Pluto-TV-1200x312.png" group-title="Documentaire",Voyages & Saveurs (720p)
 https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8
-#EXTINF:-1 group-title="Documentaire",Pêche à haut risque
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://png.pngtree.com/png-vector/20240529/ourmid/pngtree-amazing-fishing-t-shirt-design-wishing-i-was-fishing-png-image_12515568.png",Pêche à haut risque
 https://jmp2.uk/plu-678f894ef5c74bff95c20a7f.m3u8
-#EXTINF:-1 group-title="Documentaire",Zone Interdite
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://static1.ozap.com/articles/2/46/66/42/@/4478912-logo-de-zone-interdite-580x0-1.jpg",Zone Interdite
 https://jmp2.uk/plu-66f55cf2483d460008f68746.m3u8
 #EXTINF:-1 tvg-id="AuCoeurDuDanger.fr" tvg-name="Au cœur du danger" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900002FW_20260310T031715SQUARE.png" group-title="Documentaire",Au cœur du danger (1080p)
 https://d2n1sxwoprdpda.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mu1qde0x8hs1m/9a1829b1-12aa-4b1a-a0db-17affea09ac6/2.m3u8
@@ -417,7 +417,7 @@ https://d2n1sxwoprdpda.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/arte.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://i2-prod.mirror.co.uk/article7097518.ece/ALTERNATES/s1200f/0_Top-Gear-logo.jpg" group-title="Documentaire",BBC Top Gear France (1080p)
 https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Documentaire",Canal Savoir (360p)
+#EXTINF:-1 group-title="Documentaire" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/3/37/Canal_Savoir_logo.png",Canal Savoir (360p)
 https://hls.savoir.media/live/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Arabe",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
