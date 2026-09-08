@@ -72,13 +72,13 @@ https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qsLLyn4.png" group-title="France",Foot+
 http://145.239.5.177/556a/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/960px-France_3_2018.svg.png" group-title="France",France 3
-https://tvradiozap.eu/tools/ft-m3u8.php/franceinfo.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/refs/heads/main/playlists/francetv/france3.m3u8#892
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France",France 4
-https://tvradiozap.eu/tools/ft-m3u8.php/franceinfo.m3u8
+https://tvradiozap.eu/tools/ft-m3u8.php/france4.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France",France 4 HD (1080p)
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="France",France 5 (720p)
-http://145.239.5.177/305/index.m3u8
+https://raw.githubusercontent.com/schumijo/iptv/refs/heads/main/playlists/francetv/france5.m3u8#891
 #EXTINF:-1 tvg-logo="https://i.imgur.com/u8N6uoj.png" group-title="France",France 24 French (1080p)
 https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uM1v1sd.png" group-title="France",Francophonie24 (1080p)
@@ -420,7 +420,7 @@ https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Documentaire",Canal Savoir (360p)
 https://hls.savoir.media/live/stream.m3u8
 #EXTINF:-1 tvg-name="LMF5 La Maison France 5" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/8b/La_maison_France_5_2010_logo.png" group-title="Documentaire",LMF5 La Maison France 5
-https://d6n7ne3hzi1p.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ijlr3nmzh7cue/LaMaisonFrance5_FR.m3u8
+https://d6n7ne3hzi1p.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ijlr3nmzh7cue/LaMaisonFrance5_FR.m3u8#650
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Arabe",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Arabe",2M Monde +1 (1080p)
