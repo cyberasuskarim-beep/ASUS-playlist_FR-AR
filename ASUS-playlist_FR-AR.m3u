@@ -169,10 +169,8 @@ https://499fde1f527c4ce9af8917b3ee7a217a.mediatailor.us-east-1.amazonaws.com/v1/
 https://jmp2.uk/plu-697a34496f47f39d31ff8bde.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kDW0hN5.png" group-title="France",Teva (1080p)
 http://145.239.5.177/356/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="France",TF1 (576p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="France",TF1
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="France",TF1 HD (720p)
-http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="France",TFX (720p)
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tfx.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" group-title="France",TMC (1080p)
@@ -205,7 +203,7 @@ https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-
 https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TAagRkn.png" group-title="France",TZiK [Not 24/7]
 https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="France",W9 (1080p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="France",W9
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="France",Zee One Français (720p)
 https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
@@ -317,7 +315,7 @@ http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 https://sr-m6web.live.6cloud.fr/out/v1/6play/6play-gulli/cmaf_q2hyb21h/hls-short-sd.m3u8#680
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="Jeunesse",Nickelodeon Junior (1080p)
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
-#EXTINF:-1 tvg-id="SuperToons" tvg-name="Super Toons" tvg-logo="https://time2replay.com/wp-content/uploads/2023/05/supertoons-direct.jpg" group-title="Jeunesse",Super Toons (1080p)
+#EXTINF:-1 tvg-id="SuperToons" tvg-name="Super Toons" tvg-logo="https://time2replay.com/wp-content/uploads/2023/05/supertoons-direct.jpg" group-title="Jeunesse",Supertoons
 https://d37aiu112stb78.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l64mdrsnz9wn3/43ac792c-a4cc-4629-bd17-56b29ae8d046/1.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="Jeunesse",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8#905
@@ -345,6 +343,18 @@ https://jmp2.uk/plu-652557d93fd33c000802f995.m3u8
 https://jmp2.uk/plu-5f8eba14a4ffb8000764e950.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fVVKpmk.png" group-title="Jeunesse",TiVi5 Monde [Geo-blocked]
 https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3400004L5_20251230T031031SQUARE.png" tvg-country="France" group-title="Jeunesse",100% Kidz
+https://amg02162-amg02162c4-samsung-fr-10083.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02162-newenconnect-kidschannel-samsungfr/playlist.m3u8#1384
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/330px-Cartoonito_-_Logo_2021.svg.png" tvg-country="France" group-title="Jeunesse",Cartoonito
+https://www.youtube.com/@CartoonitoFrance/streams
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Documentaire",Futura 1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10243#838
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Documentaire",Futura 2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=5979#1147
+#EXTINF:-1 tvg-logo="https://www.bordeaux-neurocampus.fr/wp-content/uploads/2019/03/logo-sciences-et-vie.jpg" tvg-country="France" group-title="Documentaire",Science & Vie 1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=14172#1241
+#EXTINF:-1 tvg-logo="https://www.bordeaux-neurocampus.fr/wp-content/uploads/2019/03/logo-sciences-et-vie.jpg" tvg-country="France" group-title="Documentaire",Science & Vie 2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=10058#1010
 #EXTINF:-1 tvg-logo="https://princealbert1.mc/var/cap/storage/images/_aliases/w2160/7/7/4/0/50477-1-fre-FR/1e396f6f66bb-th-1-.jpg2.jpg" tvg-country="France" group-title="Documentaire",Arte Invitation au Voyage
 https://d3223vg0o80ccf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xn2vfltkhli08/Invitationauvoyage_FR.m3u8#91
 #EXTINF:-1 tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle10920BFMGrandsreportages.jpg" tvg-country="France" group-title="Documentaire",BFM Grands Reportages
@@ -377,7 +387,7 @@ https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://dltlq2xit8olv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-htbn65lnpv00c/Jirai_dormir_chez_vous_FR.m3u8#492
 #EXTINF:-1 tvg-id="TV5MondeVoyage.fr" tvg-name="TV5MONDE+ Voyage" tvg-language="fr" tvg-country="FR" tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" group-title="Documentaire",TV5MONDE+ Voyage HD
 https://d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8q6p9i1t9dw2k/tvfvo.m3u8#417
-#EXTINF:-1 tvg-id="" tvg-name="Docs & Enquêtes Society + HD" tvg-language="fr" tvg-country="FR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR15000010E_20260528T055328SQUARE.png" group-title="Documentaire",Docs & Enquêtes Society
+#EXTINF:-1 tvg-id="" tvg-name="Docs & Enquêtes Society + HD" tvg-language="fr" tvg-country="FR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR15000010E_20260528T055328SQUARE.png" group-title="Documentaire",Docs & Enquêtes Society+
 https://d1nvn92ps192dc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xeveldck6gfqd/ef4afab1-a492-4648-8784-4bc24073c79e/1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Homicide" tvg-language="fr" tvg-country="FR" tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" group-title="Documentaire",Homicide HD
 https://amg01796-fastmediabackbo-homicide-plex-xlwam.amagi.tv/playlist/amg01796-fastmediabackbo-homicide-plex/playlist.m3u8#1023
