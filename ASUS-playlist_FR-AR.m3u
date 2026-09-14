@@ -1,12 +1,10 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2nd5Cox.png" group-title="France",6ter (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-country="France" group-title="France",6TER
 http://145.239.5.177/314/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="France",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9C7UsOe.png" group-title="France",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="France",ADN TV+ (720p)
-https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/090tCQ5.png" group-title="France",Alpe d’Huez TV (720p) [Not 24/7]
 https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="France",Antenne Réunion (720p) [Not 24/7]
@@ -169,7 +167,7 @@ https://499fde1f527c4ce9af8917b3ee7a217a.mediatailor.us-east-1.amazonaws.com/v1/
 https://jmp2.uk/plu-697a34496f47f39d31ff8bde.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kDW0hN5.png" group-title="France",Teva (1080p)
 http://145.239.5.177/356/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QxHt9NC.png" group-title="France",TF1
+#EXTINF:-1 tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" tvg-country="France" group-title="France",TF1
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="France",TFX (720p)
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tfx.m3u8
@@ -225,6 +223,14 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1seriesfilms.m3u8
 https://c3776ebb1c7742cb9c0191b41b8b2432.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-fr_Brefcinema/playlist.m3u8#858
 #EXTINF:-1 tvg-name="Action Totale" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR220000105_20250617T031603SQUARE.png" group-title="France",Action Totale
 https://pb-dklcfpa8kwk0j.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dklcfpa8kwk0j/master.m3u8?ads.ads_cdn=ak&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.consent=%7BTC_STRING%7D&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=FR220000105&ads.ssai_vendor=SSSLIVE&pb_type=pb-dklcfpa8kwk0j_akamai&stoken=100adrenaline-samsungfr-gUJewZh5HPFiw2QaxbBfxM7a#1263
+#EXTINF:-1 tvg-logo="https://www.logotheque-vectorielle.fr/wp-content/uploads/2022/10/logo-vectoriel-allocine.jpg" tvg-country="France" group-title="France",AlloCiné
+https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8#987
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR370000288_20250415T020853SQUARE.png" tvg-country="France" group-title="France",Box Office Action
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=15080#99
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3700003N4_20250610T011321SQUARE.png" tvg-country="France" group-title="France",Box Office Drama
+https://dbhl9xt4ay3lq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-el0y7yl75ynke/bodrm.m3u8#1224
+#EXTINF:-1 tvg-logo="https://fusion.molotov.tv/arts/i/330x330/Ch0SGwoUNF6Jrg-hJ97Vs0TiZuHcM2aAxNkSA3BuZw/png" tvg-country="France" group-title="France",Box Office Thrillers
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15046#97
 #EXTINF:-1 tvg-logo="https://i.imgur.com/EjjzjF9.png" group-title="Replay",Hélène et les garçons
 https://jmp2.uk/plu-604f8de01b479400078fb1e7.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M1OjaB0.png" group-title="Replay",Les Années fac
@@ -315,12 +321,14 @@ http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 https://sr-m6web.live.6cloud.fr/out/v1/6play/6play-gulli/cmaf_q2hyb21h/hls-short-sd.m3u8#680
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="Jeunesse",Nickelodeon Junior (1080p)
 http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8
-#EXTINF:-1 tvg-id="SuperToons" tvg-name="Super Toons" tvg-logo="https://time2replay.com/wp-content/uploads/2023/05/supertoons-direct.jpg" group-title="Jeunesse",Supertoons
-https://d37aiu112stb78.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l64mdrsnz9wn3/43ac792c-a4cc-4629-bd17-56b29ae8d046/1.m3u8
+#EXTINF:-1 tvg-logo="https://time2replay.com/wp-content/uploads/2023/05/supertoons-direct.jpg" tvg-country="France" group-title="Jeunesse",Supertoons
+https://d37aiu112stb78.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l64mdrsnz9wn3/feed/samsung/streams/SUPERTOONS_FR/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f#1218
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="Jeunesse",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8#905
 #EXTINF:-1 tvg-id="ADN.fr" tvg-name="ADN" tvg-logo="https://m.media-amazon.com/images/I/51s-YfZ2TlS.png" group-title="Jeunesse",ADN (1080p)
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8#978
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="Jeunesse",ADN TV+ (720p)
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.steamgriddb.com/logo_thumb/6af814698155afb9511dd5e91454834a.png" group-title="Jeunesse",Banijay Mr Bean Animé (1080p)
 https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png" group-title="Jeunesse",Bob l'éponge (720p)
@@ -387,8 +395,8 @@ https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://dltlq2xit8olv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-htbn65lnpv00c/Jirai_dormir_chez_vous_FR.m3u8#492
 #EXTINF:-1 tvg-id="TV5MondeVoyage.fr" tvg-name="TV5MONDE+ Voyage" tvg-language="fr" tvg-country="FR" tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" group-title="Documentaire",TV5MONDE+ Voyage HD
 https://d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8q6p9i1t9dw2k/tvfvo.m3u8#417
-#EXTINF:-1 tvg-id="" tvg-name="Docs & Enquêtes Society + HD" tvg-language="fr" tvg-country="FR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR15000010E_20260528T055328SQUARE.png" group-title="Documentaire",Docs & Enquêtes Society+
-https://d1nvn92ps192dc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xeveldck6gfqd/ef4afab1-a492-4648-8784-4bc24073c79e/1.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR15000010E_20260528T055328SQUARE.png" tvg-country="France" group-title="Documentaire",Docs & Enquêtes Society+
+https://d1nvn92ps192dc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xeveldck6gfqd/v1/channel/ch-3-docs-enqu-tes-by-society/hls.m3u8?ads.ads_cdn=cf&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.consent=%7BTC_STRING%7D&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=FR15000010E&ads.ssai_vendor=SSSLIVE&pb_type=pb-xeveldck6gfqd_cloudfront#1054
 #EXTINF:-1 tvg-id="" tvg-name="Homicide" tvg-language="fr" tvg-country="FR" tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" group-title="Documentaire",Homicide HD
 https://amg01796-fastmediabackbo-homicide-plex-xlwam.amagi.tv/playlist/amg01796-fastmediabackbo-homicide-plex/playlist.m3u8#1023
 #EXTINF:-1 tvg-id="" tvg-name="Mayday : Catastrophes aériennes" tvg-language="fr" tvg-country="FR" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/3b014c48-5490-4318-8b8e-7dc4e4861ef3/variants/49f6b89bd291722c227e312eaa7d04e4380b4c0b7611bf68a82c328d2c00fcb9-width308-quality90.webp" group-title="Documentaire",Mayday : Catastrophes aériennes HD
@@ -437,6 +445,8 @@ https://d6n7ne3hzi1p.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a6
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15081#81
 #EXTINF:-1 tvg-name="Mission Intervention" tvg-logo="https://pbs.twimg.com/media/HK6tvfZX0AA8_rY.jpg" group-title="Documentaire",Mission Intervention
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15226#1172
+#EXTINF:-1 tvg-id="",Echappées Belles & Co (720p)
+https://jmp2.uk/plu-63b578b524f0cf00072f2a52.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Arabe",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Arabe",2M Monde +1 (1080p)
