@@ -431,8 +431,8 @@ https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8
 https://jmp2.uk/plu-678f894ef5c74bff95c20a7f.m3u8
 #EXTINF:-1 group-title="Documentaire",Zone Interdite
 https://jmp2.uk/plu-66f55cf2483d460008f68746.m3u8
-#EXTINF:-1 tvg-id="AuCoeurDuDanger.fr" tvg-name="Au cœur du danger" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900002FW_20260310T031715SQUARE.png" group-title="Documentaire",Au cœur du danger (1080p)
-https://d2n1sxwoprdpda.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mu1qde0x8hs1m/9a1829b1-12aa-4b1a-a0db-17affea09ac6/2.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900002FW_20260310T031715SQUARE.png" tvg-country="France" group-title="Documentaire",Au coeur du danger
+https://d2n1sxwoprdpda.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mu1qde0x8hs1m/AuCoeurDuDanger_FR.m3u8#1074
 #EXTINF:-1 tvg-id="arte.fr" tvg-name="ARTE HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/Arte_logo.svg" group-title="Documentaire",ARTE HD (1080p)
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/arte.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://bbcnews.bbcstudios.com/media/6227/top-gear-logoapril_03_2023.png" group-title="Documentaire",BBC Top Gear France (1080p)
@@ -583,3 +583,17 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39c
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="Arabe",MBC+ Drama (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",06 - Bejaia
+https://radiobejaia.ice.infomaniak.ch/bejaia.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",15 - Tizi Ouzou
+https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",35 - Boumerdes
+https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",16 - Alger
+https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",18 - Jijel
+https://radiojijel.ice.infomaniak.ch/jijel.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",10 - Bouira
+https://radiobouira.ice.infomaniak.ch/bouira.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",19 - Setif
+https://radiosetif.ice.infomaniak.ch/setif.mp3
