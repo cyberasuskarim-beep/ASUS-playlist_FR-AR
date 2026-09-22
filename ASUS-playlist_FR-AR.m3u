@@ -354,7 +354,7 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3400004L5_20251230T031031SQUARE.png" tvg-country="France" group-title="Jeunesse",100% Kidz
 https://amg02162-amg02162c4-samsung-fr-10083.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02162-newenconnect-kidschannel-samsungfr/playlist.m3u8#1384
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/330px-Cartoonito_-_Logo_2021.svg.png" tvg-country="France" group-title="Jeunesse",Cartoonito
-https://www.youtube.com/@CartoonitoFrance/streams
+https://tvradiozap.eu/tools/cof-m3u8.php/yt/UCjSg0PDVShgNIfEC8FEdXzA.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Documentaire",Futura 1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10243#838
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Documentaire",Futura 2
