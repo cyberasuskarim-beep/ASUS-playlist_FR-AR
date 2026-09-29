@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epg.pw/xmltv/epg_FR.xml.gz,https://epg.pw/xmltv/epg_AR.xml.gz"
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-country="France" group-title="France",6TER
 http://145.239.5.177/314/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="France",20 Minutes TV (1080p)
