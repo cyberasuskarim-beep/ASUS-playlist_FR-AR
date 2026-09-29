@@ -5,7 +5,8 @@ from urllib.request import Request, urlopen
 
 PLAYLIST = Path("ASUS-playlist_FR-AR.m3u")
 
-TVRADIOZAP_URL = "https://tvradiozap.eu/live/x/vlc/s/tvrztv.m3u"
+# URL mise à jour avec le point d'accès actif de TVRadioZap
+TVRADIOZAP_URL = "https://tvradiozap.eu/get.php?username=f:1$ty:tv&password=public&type=m3u_plus"
 
 # Playlist publique générale IPTV-org
 IPTVORG_URL = "https://iptv-org.github.io/iptv/index.m3u"
@@ -14,10 +15,12 @@ TIMEOUT = 30
 
 
 def download(url):
-    request = Request(
-        url,
-        headers={"User-Agent": "Mozilla/5.0"}
-    )
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://tvradiozap.eu/",
+        "Accept": "*/*"
+    }
+    request = Request(url, headers=headers)
     with urlopen(request, timeout=TIMEOUT) as response:
         return response.read().decode("utf-8", errors="replace")
 
@@ -27,7 +30,7 @@ def normalize(text):
     text = "".join(c for c in text if not unicodedata.combining(c))
     text = text.lower()
 
-    # Retirer les indications qui ne servent pas à identifier la chaîne
+    # Retirer les indications secondaires
     text = re.sub(r"\[[^\]]*\]", "", text)
     text = re.sub(r"\([^)]*\)", "", text)
 
@@ -46,7 +49,6 @@ def channel_name(extinf):
 
 def parse_m3u(text):
     channels = {}
-
     lines = text.splitlines()
     current_info = None
 
@@ -81,12 +83,10 @@ def extract_tvg_id(extinf):
 
 def build_indexes(channels):
     by_name = {}
-
     by_tvg_id = {}
 
     for key, item in channels.items():
         by_name[key] = item
-
         tvg_id = extract_tvg_id(item["info"])
 
         if tvg_id:
@@ -101,7 +101,6 @@ def find_match(my_info, my_name, source_by_name, source_by_id):
 
     if my_tvg_id:
         item = source_by_id.get(my_tvg_id.lower())
-
         if item:
             return item
 
@@ -148,6 +147,9 @@ def update_playlist(original, tvz, iptv):
             )
 
             if match:
+                # Ajout des options VLC / IPTV nécessaires pour contourner le blocage HTTP
+                output.append("#EXTVLCOPT:http-referrer=https://tvradiozap.eu/")
+                output.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0")
                 output.append(match["url"])
                 updated_tvz += 1
                 current_info = None
@@ -167,11 +169,9 @@ def update_playlist(original, tvz, iptv):
                 current_info = None
                 continue
 
-            # Aucun nouveau flux trouvé :
-            # on conserve celui de ta playlist.
+            # Aucun nouveau flux trouvé : conservation de l'ancien
             output.append(old_url)
             kept_old += 1
-
             current_info = None
             continue
 
@@ -223,7 +223,6 @@ def main():
             encoding="utf-8",
             newline="\n"
         )
-
         print("Playlist modifiée.")
     else:
         print("Aucune modification nécessaire.")
