@@ -32,7 +32,7 @@ http://145.239.5.177/314/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/681
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9C7UsOe.png" group-title="France",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/090tCQ5.png" group-title="France",Alpe d’Huez TV (720p) [Not 24/7]
@@ -68,7 +68,7 @@ https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/733
+https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ecXMjNl.png" group-title="France",arte (720p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -100,7 +100,7 @@ https://tvradiozap.eu/733
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/640
+http://145.239.5.177/300/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/FQ0FpXV.png" group-title="France",BFM Tech & Co (1080p)
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66f55a9a747bfa0008521859/colorLogoPNG.png" group-title="France",Blue Bloods
@@ -186,7 +186,7 @@ http://145.239.5.177/305/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/962
+https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vXbAeD0.png" group-title="France",HANDICAP TV France
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="France",ILTV (720p)
@@ -220,7 +220,7 @@ https://srv.webtvmanager.fr:3697/stream/play.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/687
+https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65ccd26060eb870008db95fc/colorLogoPNG.png" group-title="France",JAG
 https://jmp2.uk/plu-654a515f986ad20008a4593b.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/a8RuRUQ.png" group-title="France",Le Figaro IDF (1080p)
@@ -264,7 +264,7 @@ http://46.32.176.50/mcmtop/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/943
+http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99h8F1y.jpeg" group-title="France",Monte Carlo Digital Television (1080p)
 https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="France",MTV
@@ -346,7 +346,7 @@ http://145.239.5.177/308/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1335
+http://stream.mcquack.net/180/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/V8wRRg5.png" group-title="France",Serie Club (720p)
 http://145.239.5.177/355/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ed2d1c34c2300073bf02c/colorLogoPNG_1775048963457.png" group-title="France",Series by Pluto TV
@@ -382,7 +382,7 @@ https://jmp2.uk/plu-5f8ed2d1c34c2300073bf02c.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1237
+https://06cb85ad6ccb4a6b97f561e62d16ad3f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-822-FR-SONYONETHEBLACKLIST-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/RO4AM4b.png" group-title="France",Sony One Favoris (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -414,7 +414,7 @@ https://tvradiozap.eu/1237
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1238
+https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pXsZEsR.png" group-title="France",Sony One Hits Action (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -446,7 +446,7 @@ https://tvradiozap.eu/1238
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1230
+https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8sHuxxS.png" group-title="France",Sony One Hits Comedie (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -478,7 +478,7 @@ https://tvradiozap.eu/1230
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1231
+https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gUOXdjv.png" group-title="France",Syfy
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" group-title="France",T18 (1080p)
@@ -528,7 +528,7 @@ http://145.239.5.177/356/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/890
+http://str2.iptvhd.ru:8080/TF1/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="France",TFX (720p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -560,7 +560,7 @@ https://tvradiozap.eu/890
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/896
+http://145.239.5.177/315/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" group-title="France",TMC (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -630,7 +630,7 @@ https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/907
+https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WmRbudc.png" group-title="France",TV5Monde France Belgique Suisse Monaco (1080p) [Geo-blocked]
 https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AJx5Fy2.png" group-title="France",TV5Monde Info (1080p) [Geo-blocked]
@@ -664,7 +664,7 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/673
+https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cwC7Q2V.png" group-title="France",TV5Monde Style (1080p) [Geo-blocked]
 http://103.190.232.129/stream/tvb/style/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kSdGi43.png" group-title="France",TV7 Colmar (576p)
@@ -698,7 +698,7 @@ http://103.190.232.129/stream/tvb/style/master.m3u8?p=967e33767f592e1aaf3d4019f3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/690
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/stzE1Ij.png" group-title="France",TV78 (720p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -730,7 +730,7 @@ https://tvradiozap.eu/690
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/688
+https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 #EXTINF:-1 tvg-logo="https://academie.kasumay.international/ico/radioalsace.png" group-title="France",TV Alsace (1080p)
 http://194.163.157.137:8080/hls/radioalsace.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/O8W4yhn.png" group-title="France",TV Breizh (1080p)
@@ -766,7 +766,7 @@ http://145.239.5.177/318/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/886
+https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.tvr.bzh/favicon-1024.png" group-title="France",TVR (Bretagne) (720p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -798,7 +798,7 @@ https://tvradiozap.eu/886
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/683
+http://cdn1tlinkgo.tlink.cl/tvr/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TAagRkn.png" group-title="France",TZiK [Not 24/7]
 https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="France",W9
@@ -944,7 +944,7 @@ https://tvradiozap.eu/1263
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/987
+https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR370000288_20250415T020853SQUARE.png" tvg-country="France" group-title="France",Box Office Action
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1144,7 +1144,7 @@ https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/ind
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1110
+https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/YJCcczD.png" group-title="News",BFM TV (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1208,7 +1208,7 @@ https://tvradiozap.eu/727
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/642
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Euronews French (720p)
 https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/u8N6uoj.png" group-title="News",France 24 French (1080p)
@@ -1314,7 +1314,7 @@ https://tvradiozap.eu/1218
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/905
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
 #EXTINF:-1 tvg-id="ADN.fr" tvg-name="ADN" tvg-logo="https://m.media-amazon.com/images/I/51s-YfZ2TlS.png" group-title="Jeunesse",ADN (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1658,7 +1658,7 @@ https://tvradiozap.eu/724
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/963
+http://145.239.5.177/359a/index.m3u8
 #EXTINF:-1 tvg-logo="https://tvdecouverte.ch/wp-content/uploads/2022/11/Couleur_2_TVDecouverte-1024x184.png" tvg-country="Suisse" group-title="Documentaire",TVD (CH)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1826,7 +1826,7 @@ https://tvradiozap.eu/1014
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/646
+http://145.239.5.177/333/index.m3u8
 #EXTINF:-1 tvg-id="RMCAlerteSecours.fr" tvg-name="RMC Alerte Secours" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle1920RMCAlertesecours.jpg" group-title="Documentaire",RMC Alerte Secours (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1890,7 +1890,7 @@ https://tvradiozap.eu/1018
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/644
+https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="RMC J'irai dormir chez vous" tvg-language="fr" tvg-country="FR" tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle1920RMCJDCVmin.jpg" group-title="Documentaire",RMC J'irai dormir chez vous HD
 https://dltlq2xit8olv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-htbn65lnpv00c/Jirai_dormir_chez_vous_FR.m3u8#492
 #EXTINF:-1 tvg-id="TV5MondeVoyage.fr" tvg-name="TV5MONDE+ Voyage" tvg-language="fr" tvg-country="FR" tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" group-title="Documentaire",TV5MONDE+ Voyage HD
@@ -2114,7 +2114,7 @@ https://tvradiozap.eu/1074
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/640
+https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://bbcnews.bbcstudios.com/media/6227/top-gear-logoapril_03_2023.png" group-title="Documentaire",BBC Top Gear France (1080p)
 https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Documentaire",Canal Savoir (360p)
