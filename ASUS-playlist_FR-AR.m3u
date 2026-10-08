@@ -28,15 +28,11 @@ https://jmp2.uk/plu-61b3b8c645b45d0007a9bb8d.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/w4kAX1V.png" group-title="France",C Star (1080p)
 http://145.239.5.177/361/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fvPoNEa.jpeg" group-title="France",Canal+ Cinemas (720p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/670
+http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" group-title="France",Canal+ Sport 360
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/670
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG_1750862971704.png" group-title="France",CATFISH TV (720p)
-https://jmp2.uk/plu-5f8eb66537867f0007146953.m3u8
+http://190.128.214.97:64333/play/a006/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e7f224676bf00076a4d8d/colorLogoPNG.png" group-title="France",Cheers
 https://jmp2.uk/plu-62bdb7f0db2eb30007376d4d.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6823648580b2665220d9e69a/colorLogoPNG-1757404141.png" group-title="France",Ciné 666 by Pluto TV
@@ -74,8 +70,6 @@ http://99.27.51.147:8080/CineFrisson/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="France",FIFA+ French (720p)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qsLLyn4.png" group-title="France",Foot+
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/1260
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/960px-France_3_2018.svg.png" group-title="France",France 3
 http://57.128.231.171:8080/273/index.m3u8
@@ -94,7 +88,7 @@ https://tvradiozap.eu/962
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vXbAeD0.png" group-title="France",HANDICAP TV France
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/883
+https://tvradiozap.eu/908
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="France",ILTV (720p)
 https://tvradiozap.eu/687
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65ccd26060eb870008db95fc/colorLogoPNG.png" group-title="France",JAG
@@ -114,15 +108,11 @@ http://46.32.176.50/mcmtop/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/REN30bx.png" group-title="France",MDL (720p)
 https://tvradiozap.eu/943
 #EXTINF:-1 tvg-logo="https://i.imgur.com/99h8F1y.jpeg" group-title="France",Monte Carlo Digital Television (1080p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1436
+https://fl718492-exthls-p1.flovp.com/fl718492/live/live.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="France",MTV
 https://ma.anixa.tv/clips/stream/mtv/playlist.php
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="France",MTV CLASSICS
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/955
+https://jmp2.uk/plu-5f92b56a367e170007cd43f4.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png" group-title="France",Pluto TV 90's Classics
 https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/691b3669c48674840c3b832a/colorLogoPNG_1778491402325.png" group-title="France",Pluto TV ANIME GO!
@@ -130,20 +120,12 @@ https://jmp2.uk/plu-691b3669c48674840c3b832a.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/684bf01df7d8b74b625b7dd1/colorLogoPNG_1753890939606.png" group-title="France",Pluto TV Brigade Criminelle
 https://jmp2.uk/plu-684bf01df7d8b74b625b7dd1.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8eb91bb9b9e7000817e67f/colorLogoPNG.png" group-title="France",Pluto TV Comédie
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/955
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67b4b2d976a934282e92d71c/colorLogoPNG.png" group-title="France",Pluto TV Comédies Cultes
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/955
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ed48146ba9e00078424b6/colorLogoPNG_1733440509319.png" group-title="France",Pluto TV Cuisine
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/955
+https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/682318568e6c0f2f6c6e0038/colorLogoPNG_1750772750435.png" group-title="France",Pluto TV Dating (720p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/1383
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/62f3e0522443200008c567d7/colorLogoPNG.png" group-title="France",Pluto TV French Collection
 https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8
@@ -156,12 +138,8 @@ https://jmp2.uk/plu-5f98487036af340008da1e37.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ed4dbf6bb0800071ffbcb/colorLogoPNG.png" group-title="France",Pluto TV Polar
 https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png" group-title="France",Pluto TV Reality
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/683
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e6a9b4bb5790007a6f0f8/colorLogoPNG.png" group-title="France",Pluto TV Retro Toons
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/683
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/625ec7a1c853fd00073b38fd/colorLogoPNG_1775048560569.png" group-title="France",Pluto TV Séries Fantastiques
 https://jmp2.uk/plu-625ec7a1c853fd00073b38fd.m3u8
@@ -172,9 +150,7 @@ https://jmp2.uk/plu-63eb944dc111bc0008fe7021.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/699865ccac36b147e74619fe/colorLogoPNG_1779788356699.png" group-title="France",Pluto TV Téléréalité France
 https://jmp2.uk/plu-699865ccac36b147e74619fe.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg" group-title="France",Puissance TV
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/959
+https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png" group-title="France",Ridiculousness (720p)
 https://jmp2.uk/plu-5f8eb8a8b2619a000710605c.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="France",RT France (1080p) [Geo-blocked]
@@ -214,14 +190,10 @@ https://jmp2.uk/plu-62e7fc8c0d061100083946a9.m3u8
 #EXTINF:-1 group-title="France",Incroyables Transformations (720p)
 http://57.128.231.171:8080/273/index.m3u8
 #EXTINF:-1 group-title="France",Le Meilleur de la TV Realite (1080p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/683
 #EXTINF:-1 group-title="France",Les Routes du Paradis
 http://57.128.231.171:8080/273/index.m3u8
 #EXTINF:-1 group-title="France",Rakuten TV Films Français (720p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/940
 #EXTINF:-1 group-title="France",Si près de chez vous
 http://flussonic.linkintel.ru/che/index.m3u8
@@ -240,7 +212,7 @@ https://tvradiozap.eu/896
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/895
 #EXTINF:-1 tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="France",Trace Urban France (1080p)
-http://57.128.231.171:8080/273/index.m3u8
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f914f4b36d67d0007a91a04/colorLogoPNG.png" group-title="France",True Crime by Pluto TV
 https://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png" group-title="France",Turbo (720p)
@@ -294,9 +266,7 @@ https://tvradiozap.eu/930
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/861
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MP34aaj.png" group-title="France",Zylo Emotion' L (1080p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/860
+https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fEjNAps.png" group-title="France",Zylo Fréquence Novelas (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -356,7 +326,7 @@ https://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/62f3e8ad2a8e8000077b013d/colorLogoPNG.png?w=512" group-title="Replay",Detective Conan France (720p)
 https://jmp2.uk/plu-62f3e8ad2a8e8000077b013d.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="Replay",iCarly TV
-https://jmp2.uk/plu-5f8ecc7aa44d9c00081fca29.m3u8
+https://jmp2.uk/plu-61c185049e0bde0007820039.m3u8
 #EXTINF:-1 group-title="Replay",LOL Just For Laughs (720p)
 http://stream.mcquack.net/60/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png" group-title="Replay",Tout le monde déteste Chris
@@ -458,9 +428,7 @@ https://tvradiozap.eu/905
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/978
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="Jeunesse",ADN TV+ (720p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/978
+https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2.steamgriddb.com/logo_thumb/6af814698155afb9511dd5e91454834a.png" group-title="Jeunesse",Banijay Mr Bean Animé (1080p)
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -468,9 +436,7 @@ https://tvradiozap.eu/1190
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ffc8c345822750007e167de/colorLogoPNG.png" group-title="Jeunesse",Bob l'éponge (720p)
 https://jmp2.uk/plu-66588931a3865300085ca800.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f8ecc1b37867f00071469e9/colorLogoPNG.png" group-title="Jeunesse",Tortues Ninja TV (720p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1168
+https://jmp2.uk/plu-5f8ecc1b37867f00071469e9.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6683b680efa2a10008e8a393/colorLogoPNG.png" group-title="Jeunesse",Daria
 https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pLv0T3D.png" group-title="Jeunesse",Inazuma Eleven
@@ -628,9 +594,7 @@ https://tvradiozap.eu/528
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/989
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png" group-title="Documentaire",Voyages & Saveurs
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/989
+https://amg01821-amg01821c24-samsung-fr-5157.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-voyagesandsaveurs-samsungfr/playlist.m3u8
 #EXTINF:-1 group-title="Documentaire",Pêche à haut risque
 http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 group-title="Documentaire",Zone Interdite
@@ -646,8 +610,6 @@ https://tvradiozap.eu/640
 #EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://bbcnews.bbcstudios.com/media/6227/top-gear-logoapril_03_2023.png" group-title="Documentaire",BBC Top Gear France (1080p)
 http://57.128.231.171:8080/273/index.m3u8
 #EXTINF:-1 group-title="Documentaire",Canal Savoir (360p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/670
 #EXTINF:-1 tvg-name="LMF5 La Maison France 5" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/8b/La_maison_France_5_2010_logo.png" group-title="Documentaire",LMF5 La Maison France 5
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
@@ -674,12 +636,8 @@ http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ki3ySUE.png" group-title="Arabe",CNA (360p) [Not 24/7]
 https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cDkIDIA.png" group-title="Arabe",El-Heddaf TV (1080p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1519
+https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NKR8WFq.png" group-title="Arabe",Elwatania TV (1080i)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/1168
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="Arabe",StoryChannel TV (720p)
 https://136044159.r.cdnsun.net/storychannel.m3u8
@@ -688,9 +646,7 @@ http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kx7wmXCQ/almasriya.png" group-title="Arabe",Al Masriyah (1080p)
 http://185.9.2.18/chid_247/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pwM5txv.png" group-title="Arabe",ATVSat (1080p) [Not 24/7]
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1168
+https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8apNaLP.png" group-title="Arabe",CBC (576p)
 https://flu.systemnet.tv/CBC/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/I8YdakH.png" group-title="Arabe",CBC Drama (576p)
@@ -706,17 +662,13 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0a
 #EXTINF:-1 tvg-logo="https://media0070.elcinema.com/tvguide/1399_1.png" group-title="Arabe",MBC Masr Drama (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/q7iVchl.png" group-title="Arabe",Mekameleen TV (1080p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/940
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1ENdbZn.png" group-title="Arabe",Mix Hollywood (1080p)
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dGlKoLW.png" group-title="Arabe",Rotana Cinema Egypt (1080p) [Geo-blocked]
 https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pZyKaUH.png" group-title="Arabe",Watan TV (1080p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/940
+https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PJYTfHi.png" group-title="Arabe",2M
 http://185.9.2.18/chid_218/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Arabe",2M Monde +1 (1080p)
@@ -724,9 +676,7 @@ https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-logo="https://i.imgur.com/7GaahYh.png" group-title="Arabe",Al Maghribia (1080p)
 http://185.9.2.18/chid_205/index.m3u8
 #EXTINF:-1 tvg-logo="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" group-title="Arabe",Chada TV (720p)
-#EXTVLCOPT:http-referrer=https://tvradiozap.eu/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://tvradiozap.eu/1168
+https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Ki3ySUE.png" group-title="Arabe",CNA (360p) [Not 24/7]
 https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="Arabe",MBC 5 (1080p)
