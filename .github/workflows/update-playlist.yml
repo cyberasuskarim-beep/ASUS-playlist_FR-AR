@@ -1,10 +1,14 @@
 name: Update ASUS playlist
 
 on:
+  # Mise à jour automatique toutes les 6 heures
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */6 * * *"
+
+  # Permet de lancer manuellement le workflow
   workflow_dispatch:
 
+# Autorise GitHub Actions à modifier le dépôt
 permissions:
   contents: write
 
@@ -13,21 +17,48 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      # ----------------------------------------------------
+      # Récupérer le dépôt
+      # ----------------------------------------------------
       - name: Télécharger le dépôt
         uses: actions/checkout@v4
 
+      # ----------------------------------------------------
+      # Installer Python
+      # ----------------------------------------------------
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
+      # ----------------------------------------------------
+      # Exécuter le script
+      # ----------------------------------------------------
       - name: Mettre à jour la playlist
-        run: python update_playlist.py
+        run: |
+          python update_playlist.py
 
+      # ----------------------------------------------------
+      # Vérifier les modifications
+      # ----------------------------------------------------
+      - name: Vérifier les modifications
+        run: |
+          git status --short
+
+      # ----------------------------------------------------
+      # Enregistrer la nouvelle playlist
+      # ----------------------------------------------------
       - name: Enregistrer les modifications
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add ASUS-playlist_FR-AR.m3u
-          git diff --cached --quiet || git commit -m "Mise à jour automatique de la playlist"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "Aucune modification de la playlist."
+          else
+            git commit -m "Mise à jour automatique de la playlist"
+            git push
+          fi
