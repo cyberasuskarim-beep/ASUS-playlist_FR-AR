@@ -129,7 +129,7 @@ def download_text(url, headers=None):
 
 
 # ============================================================
-# VERIFICATION D'UN FLUX
+# TEST D'UN FLUX
 # ============================================================
 
 def verify_stream(url, source="generic"):
@@ -182,23 +182,15 @@ def verify_stream(url, source="generic"):
             )
 
             if status < 200 or status >= 400:
-
-                return (
-                    False,
-                    f"HTTP {status}"
-                )
+                return False, f"HTTP {status}"
 
             if not data:
-
-                return (
-                    False,
-                    "réponse vide"
-                )
+                return False, "réponse vide"
 
             sample = data[:1000].lower()
 
             # ------------------------------------------------
-            # Page HTML au lieu du flux
+            # Page HTML
             # ------------------------------------------------
 
             if (
@@ -207,10 +199,7 @@ def verify_stream(url, source="generic"):
                 or b"<!doctype html" in sample
             ):
 
-                return (
-                    False,
-                    "réponse HTML"
-                )
+                return False, "réponse HTML"
 
             # ------------------------------------------------
             # HLS
@@ -227,22 +216,13 @@ def verify_stream(url, source="generic"):
                     or b"#ext-x-" in sample
                 ):
 
-                    return (
-                        True,
-                        f"OK HLS / HTTP {status}"
-                    )
+                    return True, f"OK HLS / HTTP {status}"
 
                 if status in (200, 206):
 
-                    return (
-                        True,
-                        f"OK HLS / HTTP {status}"
-                    )
+                    return True, f"OK HLS / HTTP {status}"
 
-                return (
-                    False,
-                    "HLS invalide"
-                )
+                return False, "HLS invalide"
 
             # ------------------------------------------------
             # MPEG-TS
@@ -262,7 +242,7 @@ def verify_stream(url, source="generic"):
                         )
 
             # ------------------------------------------------
-            # Flux audio
+            # Audio
             # ------------------------------------------------
 
             if (
@@ -279,27 +259,18 @@ def verify_stream(url, source="generic"):
                 )
 
             # ------------------------------------------------
-            # Flux HTTP générique
+            # HTTP valide
             # ------------------------------------------------
 
             if status in (200, 206):
 
-                return (
-                    True,
-                    f"HTTP {status}"
-                )
+                return True, f"HTTP {status}"
 
-            return (
-                False,
-                f"HTTP {status}"
-            )
+            return False, f"HTTP {status}"
 
     except HTTPError as e:
 
-        return (
-            False,
-            f"HTTP {e.code}"
-        )
+        return False, f"HTTP {e.code}"
 
     except URLError as e:
 
@@ -309,24 +280,15 @@ def verify_stream(url, source="generic"):
             "erreur réseau"
         )
 
-        return (
-            False,
-            f"erreur réseau: {reason}"
-        )
+        return False, f"erreur réseau: {reason}"
 
     except TimeoutError:
 
-        return (
-            False,
-            "timeout"
-        )
+        return False, "timeout"
 
     except Exception as e:
 
-        return (
-            False,
-            type(e).__name__
-        )
+        return False, type(e).__name__
 
 
 # ============================================================
@@ -516,6 +478,7 @@ def build_indexes(channels):
         )
 
         if name_key:
+
             by_name.setdefault(
                 name_key,
                 item
@@ -530,6 +493,7 @@ def build_indexes(channels):
         )
 
         if id_key:
+
             by_id.setdefault(
                 id_key,
                 item
@@ -539,7 +503,7 @@ def build_indexes(channels):
 
 
 # ============================================================
-# RECHERCHE D'UNE CHAINE
+# RECHERCHE SOURCE
 # ============================================================
 
 def find_match(
@@ -548,6 +512,10 @@ def find_match(
     source_by_name,
     source_by_id
 ):
+
+    # --------------------------------------------------------
+    # TVG-ID
+    # --------------------------------------------------------
 
     my_tvg_id = extract_tvg_id(
         my_info
@@ -566,6 +534,10 @@ def find_match(
                 "tvg-id"
             )
 
+    # --------------------------------------------------------
+    # Nom exact
+    # --------------------------------------------------------
+
     name_key = normalize(
         my_name
     )
@@ -576,6 +548,10 @@ def find_match(
             source_by_name[name_key],
             "nom exact"
         )
+
+    # --------------------------------------------------------
+    # Nom partiel
+    # --------------------------------------------------------
 
     candidates = []
 
@@ -594,7 +570,9 @@ def find_match(
                 or source_key in name_key
             ):
 
-                candidates.append(item)
+                candidates.append(
+                    item
+                )
 
     if len(candidates) == 1:
 
@@ -694,6 +672,10 @@ def extract_radio_streams(
 
     candidates = []
 
+    # --------------------------------------------------------
+    # URLs dans la page
+    # --------------------------------------------------------
+
     url_pattern = re.compile(
         r'https?://[^\s"\'<>]+',
         re.I
@@ -730,6 +712,10 @@ def extract_radio_streams(
                 url
             )
 
+    # --------------------------------------------------------
+    # src / file / source
+    # --------------------------------------------------------
+
     src_pattern = re.compile(
         r'(?:src|file|source)\s*=\s*["\']([^"\']+)["\']',
         re.I
@@ -745,9 +731,7 @@ def extract_radio_streams(
             ("http://", "https://")
         ):
 
-            lower = value.lower()
-
-            if "/podcast/" not in lower:
+            if "/podcast/" not in value.lower():
 
                 candidates.append(
                     value
@@ -835,310 +819,4 @@ def build_radio_algerie_index():
 
             title_match = re.search(
                 r"<title[^>]*>(.*?)</title>",
-                html,
-                re.I | re.S
-            )
-
-            if title_match:
-
-                name = re.sub(
-                    r"<[^>]+>",
-                    "",
-                    title_match.group(1)
-                ).strip()
-
-        if not name:
-            continue
-
-        key = normalize(
-            name
-        )
-
-        if not key:
-            continue
-
-        index.setdefault(
-            key,
-            []
-        )
-
-        for stream in streams:
-
-            if stream not in index[key]:
-
-                index[key].append(
-                    stream
-                )
-
-    print(
-        f"Radios Algérienne indexées : "
-        f"{len(index)}"
-    )
-
-    return index
-
-
-def find_radio_algerie(
-    name,
-    radio_index
-):
-
-    name_key = normalize(
-        name
-    )
-
-    if not name_key:
-        return []
-
-    if name_key in radio_index:
-
-        return radio_index[
-            name_key
-        ]
-
-    candidates = []
-
-    for key, streams in radio_index.items():
-
-        if (
-            name_key in key
-            or key in name_key
-        ):
-
-            candidates.extend(
-                streams
-            )
-
-    return list(
-        dict.fromkeys(candidates)
-    )
-
-
-# ============================================================
-# TEST RADIO
-# ============================================================
-
-def test_radio_candidates(
-    name,
-    candidates
-):
-
-    for url in candidates:
-
-        print(
-            f"    Test Radio Algérienne : "
-            f"{url}"
-        )
-
-        ok, reason = verify_stream(
-            url,
-            source="radioalgerie"
-        )
-
-        if ok:
-
-            print(
-                f"    ✓ Radio Algérienne OK : "
-                f"{reason}"
-            )
-
-            return url
-
-        print(
-            f"    ✗ Radio Algérienne KO : "
-            f"{reason}"
-        )
-
-    return None
-
-
-# ============================================================
-# NETTOYAGE DES ANCIENS EXT VLC
-# ============================================================
-
-def is_vlc_option(line):
-
-    stripped = line.strip().lower()
-
-    return (
-        stripped.startswith(
-            "#extvlcopt:http-referrer="
-        )
-        or stripped.startswith(
-            "#extvlcopt:http-user-agent="
-        )
-    )
-
-
-def clean_old_vlc_options(lines):
-
-    cleaned = []
-
-    removed = 0
-
-    for line in lines:
-
-        if is_vlc_option(line):
-
-            removed += 1
-
-            continue
-
-        cleaned.append(line)
-
-    if removed:
-
-        print(
-            f"Nettoyage : {removed} anciennes "
-            f"directives #EXTVLCOPT supprimées."
-        )
-
-    return cleaned
-
-
-# ============================================================
-# MISE A JOUR PLAYLIST
-# ============================================================
-
-def update_playlist(
-    original,
-    tvz,
-    iptv,
-    radio_index
-):
-
-    tvz_by_name, tvz_by_id = build_indexes(
-        tvz
-    )
-
-    iptv_by_name, iptv_by_id = build_indexes(
-        iptv
-    )
-
-    # --------------------------------------------------------
-    # IMPORTANT :
-    # supprimer AVANT le traitement toutes les anciennes
-    # directives EXT VLC.
-    # --------------------------------------------------------
-
-    lines = original.splitlines()
-
-    lines = clean_old_vlc_options(
-        lines
-    )
-
-    output = []
-
-    current_info = None
-
-    updated_tvz = 0
-    updated_iptv = 0
-    updated_radio = 0
-    kept_old = 0
-    invalid_sources = 0
-
-    not_found = []
-
-    # ========================================================
-    # PARCOURS
-    # ========================================================
-
-    for line in lines:
-
-        stripped = line.strip()
-
-        # ----------------------------------------------------
-        # EXTINF
-        # ----------------------------------------------------
-
-        if stripped.startswith(
-            "#EXTINF"
-        ):
-
-            current_info = line
-
-            output.append(
-                line
-            )
-
-            continue
-
-        # ----------------------------------------------------
-        # URL
-        # ----------------------------------------------------
-
-        if (
-            current_info
-            and stripped
-            and not stripped.startswith("#")
-        ):
-
-            old_url = line
-
-            name = channel_name(
-                current_info
-            )
-
-            print()
-            print(
-                f"[CHAINE] {name}"
-            )
-
-            # =================================================
-            # 1. TVRadioZap
-            # =================================================
-
-            tvz_match, tvz_method = find_match(
-                current_info,
-                name,
-                tvz_by_name,
-                tvz_by_id
-            )
-
-            if tvz_match:
-
-                print(
-                    "    Recherche TVRadioZap..."
-                )
-
-                ok, reason = verify_stream(
-                    tvz_match["url"],
-                    source="tvradiozap"
-                )
-
-                if ok:
-
-                    # Une SEULE paire.
-                    output.append(
-                        "#EXTVLCOPT:http-referrer="
-                        "https://tvradiozap.eu/"
-                    )
-
-                    output.append(
-                        "#EXTVLCOPT:http-user-agent="
-                        "Mozilla/5.0"
-                    )
-
-                    output.append(
-                        tvz_match["url"]
-                    )
-
-                    updated_tvz += 1
-
-                    print(
-                        "    ✓ TVRadioZap retenu "
-                        f"({tvz_method})"
-                    )
-
-                    current_info = None
-
-                    continue
-
-                print(
-                    f"    ✗ TVRadioZap KO : "
-                    f"{reason}"
-                )
-
-                invalid_sources += 1
-
-            # =================================================
+                html
