@@ -5,10 +5,6 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
-
 PLAYLIST = Path("ASUS-playlist_FR-AR.m3u")
 
 TVRADIOZAP_URL = (
@@ -22,11 +18,6 @@ IPTVORG_URL = "https://iptv-org.github.io/iptv/index.m3u"
 
 DOWNLOAD_TIMEOUT = 30
 STREAM_TIMEOUT = 8
-
-
-# ============================================================
-# HEADERS
-# ============================================================
 
 TVZ_HEADERS = {
     "User-Agent": (
@@ -50,19 +41,11 @@ GENERIC_HEADERS = {
 }
 
 
-# ============================================================
-# TELECHARGER UNE SOURCE
-# ============================================================
-
 def download(url, headers):
     request = Request(url, headers=headers)
 
     try:
-        with urlopen(
-            request,
-            timeout=DOWNLOAD_TIMEOUT
-        ) as response:
-
+        with urlopen(request, timeout=DOWNLOAD_TIMEOUT) as response:
             return response.read().decode(
                 "utf-8",
                 errors="replace"
@@ -70,22 +53,15 @@ def download(url, headers):
 
     except (HTTPError, URLError) as exc:
         raise RuntimeError(
-            f"Impossible de télécharger {url}: {exc}"
+            f"Erreur téléchargement {url}: {exc}"
         ) from exc
 
-
-# ============================================================
-# NORMALISATION
-# ============================================================
 
 def normalize(text):
     if not text:
         return ""
 
-    text = unicodedata.normalize(
-        "NFKD",
-        text
-    )
+    text = unicodedata.normalize("NFKD", text)
 
     text = "".join(
         c for c in text
@@ -94,17 +70,8 @@ def normalize(text):
 
     text = text.lower()
 
-    text = re.sub(
-        r"\[[^\]]*\]",
-        "",
-        text
-    )
-
-    text = re.sub(
-        r"\([^)]*\)",
-        "",
-        text
-    )
+    text = re.sub(r"\[[^\]]*\]", "", text)
+    text = re.sub(r"\([^)]*\)", "", text)
 
     text = re.sub(
         r"\b(4k|uhd|fhd|hd|sd|1080p|720p|576p|480p)\b",
@@ -120,26 +87,16 @@ def normalize(text):
         flags=re.I
     )
 
-    text = text.replace(
-        "&",
-        "and"
-    )
+    text = text.replace("&", "and")
 
-    return re.sub(
-        r"[^a-z0-9]+",
-        "",
-        text
-    )
+    return re.sub(r"[^a-z0-9]+", "", text)
 
 
 def normalize_id(text):
     if not text:
         return ""
 
-    text = unicodedata.normalize(
-        "NFKD",
-        text
-    )
+    text = unicodedata.normalize("NFKD", text)
 
     text = "".join(
         c for c in text
@@ -148,28 +105,17 @@ def normalize_id(text):
 
     text = text.lower().strip()
 
-    return re.sub(
-        r"[-_.:]+",
-        "",
-        text
-    )
+    return re.sub(r"[-_.:]+", "", text)
 
-
-# ============================================================
-# INFORMATIONS D'UNE CHAINE
-# ============================================================
 
 def channel_name(extinf):
     if "," not in extinf:
         return ""
 
-    return extinf.split(
-        ",",
-        1
-    )[1].strip()
+    return extinf.split(",", 1)[1].strip()
 
 
-def tvg_id(extinf):
+def extract_tvg_id(extinf):
     match = re.search(
         r'tvg-id\s*=\s*"([^"]*)"',
         extinf,
@@ -182,59 +128,45 @@ def tvg_id(extinf):
     return ""
 
 
-# ============================================================
-# PARSER UNE SOURCE M3U
-# ============================================================
-
 def parse_m3u(text):
-    result = []
-    current = None
+    channels = []
+    current_info = None
 
-    for raw in text.splitlines():
-
-        line = raw.strip()
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
 
         if not line:
             continue
 
         if line.startswith("#EXTINF"):
-            current = line
+            current_info = line
             continue
 
         if (
-            current
+            current_info
             and line
             and not line.startswith("#")
         ):
-
-            name = channel_name(current)
+            name = channel_name(current_info)
 
             if name:
-                result.append({
-                    "info": current,
+                channels.append({
+                    "info": current_info,
                     "name": name,
                     "url": line
                 })
 
-            current = None
+            current_info = None
 
-    return result
+    return channels
 
 
-# ============================================================
-# INDEXER UNE SOURCE
-# ============================================================
-
-def make_indexes(channels):
-
+def build_indexes(channels):
     by_name = {}
     by_id = {}
 
     for item in channels:
-
-        name_key = normalize(
-            item["name"]
-        )
+        name_key = normalize(item["name"])
 
         if name_key:
             by_name.setdefault(
@@ -243,7 +175,7 @@ def make_indexes(channels):
             )
 
         ident = normalize_id(
-            tvg_id(item["info"])
+            extract_tvg_id(item["info"])
         )
 
         if ident:
@@ -255,40 +187,18 @@ def make_indexes(channels):
     return by_name, by_id
 
 
-# ============================================================
-# TROUVER UNE CHAINE
-# ============================================================
-
-def find_match(
-    info,
-    name,
-    by_name,
-    by_id
-):
-
-    # --------------------------------------------------------
-    # TVG-ID
-    # --------------------------------------------------------
-
+def find_match(info, name, by_name, by_id):
     ident = normalize_id(
-        tvg_id(info)
+        extract_tvg_id(info)
     )
 
     if ident and ident in by_id:
         return by_id[ident]
 
-    # --------------------------------------------------------
-    # Nom exact
-    # --------------------------------------------------------
-
     key = normalize(name)
 
-    if key in by_name:
+    if key and key in by_name:
         return by_name[key]
-
-    # --------------------------------------------------------
-    # Nom partiel
-    # --------------------------------------------------------
 
     if len(key) < 4:
         return None
@@ -296,11 +206,7 @@ def find_match(
     candidates = []
 
     for source_key, item in by_name.items():
-
-        if (
-            key in source_key
-            or source_key in key
-        ):
+        if key in source_key or source_key in key:
             candidates.append(item)
 
     if not candidates:
@@ -308,28 +214,19 @@ def find_match(
 
     candidates.sort(
         key=lambda item: abs(
-            len(normalize(item["name"]))
-            - len(key)
+            len(normalize(item["name"])) - len(key)
         )
     )
 
     return candidates[0]
 
 
-# ============================================================
-# VERIFIER UN FLUX
-# ============================================================
-
 def test_stream(url, tvradiozap=False):
-
-    if not url.startswith(
-        ("http://", "https://")
-    ):
+    if not url.startswith(("http://", "https://")):
         return False
 
     headers = dict(
-        TVZ_HEADERS if tvradiozap
-        else GENERIC_HEADERS
+        TVZ_HEADERS if tvradiozap else GENERIC_HEADERS
     )
 
     headers["Range"] = "bytes=0-4095"
@@ -340,7 +237,6 @@ def test_stream(url, tvradiozap=False):
     )
 
     try:
-
         with urlopen(
             request,
             timeout=STREAM_TIMEOUT
@@ -357,16 +253,13 @@ def test_stream(url, tvradiozap=False):
             if not data:
                 return False
 
-            content_type = (
-                response.headers.get(
-                    "Content-Type",
-                    ""
-                ).lower()
-            )
+            content_type = response.headers.get(
+                "Content-Type",
+                ""
+            ).lower()
 
             sample = data[:1000].lower()
 
-            # Page HTML = pas un flux
             if (
                 b"<html" in sample
                 or b"<body" in sample
@@ -374,7 +267,6 @@ def test_stream(url, tvradiozap=False):
             ):
                 return False
 
-            # HLS
             if (
                 ".m3u8" in url.lower()
                 or "mpegurl" in content_type
@@ -385,144 +277,10 @@ def test_stream(url, tvradiozap=False):
                 ):
                     return True
 
-                # Certains serveurs HLS répondent
-                # correctement mais ne donnent pas
-                # le contenu attendu avec Range.
                 return response.status in (200, 206)
 
-            # Audio
             if (
                 "audio/" in content_type
                 or "aac" in content_type
                 or "mp3" in content_type
                 or "mpeg" in content_type
-                or "ogg" in content_type
-            ):
-                return True
-
-            # MPEG-TS
-            if len(data) >= 188:
-
-                for pos in range(
-                    min(188, len(data))
-                ):
-                    if data[pos] == 0x47:
-                        return True
-
-            return response.status in (200, 206)
-
-    except Exception:
-        return False
-
-
-# ============================================================
-# SUPPRIMER TOUTES LES EXT VLC
-# ============================================================
-
-def remove_vlc_options(text):
-
-    output = []
-    removed = 0
-
-    for line in text.splitlines():
-
-        value = line.strip().lower()
-
-        if (
-            value.startswith("#extvlcopt:")
-            or value.startswith("#vlcopt:")
-        ):
-            removed += 1
-            continue
-
-        output.append(line)
-
-    return (
-        "\n".join(output) + "\n",
-        removed
-    )
-
-
-# ============================================================
-# LIRE LA PLAYLIST
-# ============================================================
-
-def parse_playlist(text):
-
-    lines = text.splitlines()
-
-    header = []
-    channels = []
-
-    current_info = None
-
-    for line in lines:
-
-        stripped = line.strip()
-
-        if stripped.startswith("#EXTINF"):
-
-            current_info = line
-            continue
-
-        if (
-            current_info
-            and stripped
-            and not stripped.startswith("#")
-        ):
-
-            channels.append({
-                "info": current_info,
-                "url": line
-            })
-
-            current_info = None
-            continue
-
-        if current_info is None:
-            header.append(line)
-
-    return header, channels
-
-
-# ============================================================
-# CONSTRUIRE UN BLOC DE CHAINE
-# ============================================================
-
-def build_channel(
-    info,
-    url,
-    use_tvradiozap=False
-):
-
-    result = [info]
-
-    # IMPORTANT :
-    # maximum UNE seule paire EXT VLC.
-
-    if use_tvradiozap:
-
-        result.append(
-            "#EXTVLCOPT:http-referrer="
-            "https://tvradiozap.eu/"
-        )
-
-        result.append(
-            "#EXTVLCOPT:http-user-agent="
-            "Mozilla/5.0"
-        )
-
-    result.append(url)
-
-    return result
-
-
-# ============================================================
-# MISE A JOUR
-# ============================================================
-
-def update_playlist(original, tvz, iptv):
-
-    # --------------------------------------------------------
-    # ETAPE 1
-    # Supprimer absolument toutes les anciennes EXT VLC.
