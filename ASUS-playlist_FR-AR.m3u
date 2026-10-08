@@ -630,7 +630,7 @@ https://tvradiozap.eu/989
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png" group-title="Documentaire",Voyages & Saveurs
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://amg01821-amg01821c24-samsung-fr-5157.playouts.now.amagi.tv/playlist/amg01821-lovetvfast-voyagesandsaveurs-samsungfr/playlist.m3u8
+https://tvradiozap.eu/989
 #EXTINF:-1 group-title="Documentaire",Pêche à haut risque
 http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 group-title="Documentaire",Zone Interdite
