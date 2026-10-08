@@ -12,6 +12,7 @@ from urllib.error import HTTPError, URLError
 PLAYLIST = Path("ASUS-playlist_FR-AR.m3u")
 
 TVRADIOZAP_URL = "https://tvradiozap.eu/live/x/vlc/d/tvzeu.m3u"
+
 IPTVORG_URL = "https://iptv-org.github.io/iptv/index.m3u"
 
 DOWNLOAD_TIMEOUT = 60
@@ -56,6 +57,7 @@ def download(url, headers):
     )
 
     try:
+
         with urlopen(
             request,
             timeout=DOWNLOAD_TIMEOUT
@@ -66,7 +68,10 @@ def download(url, headers):
                 errors="replace"
             )
 
-    except (HTTPError, URLError) as exc:
+    except (
+        HTTPError,
+        URLError
+    ) as exc:
 
         raise RuntimeError(
             f"Erreur téléchargement : {url}\n{exc}"
@@ -77,7 +82,7 @@ def download(url, headers):
 # NORMALISATION DU NOM
 # ============================================================
 
-def normalize(text):
+def normalize_name(text):
 
     if not text:
         return ""
@@ -88,42 +93,69 @@ def normalize(text):
     )
 
     text = "".join(
-        c for c in text
-        if not unicodedata.combining(c)
+        char
+        for char in text
+        if not unicodedata.combining(char)
     )
 
     text = text.lower()
 
+    # Supprimer les informations entre crochets
     text = re.sub(
         r"\[[^\]]*\]",
         "",
         text
     )
 
+    # Supprimer les informations entre parenthèses
     text = re.sub(
         r"\([^)]*\)",
         "",
         text
     )
 
+    # Supprimer uniquement les indications techniques
     text = re.sub(
-        r"\b(4k|uhd|fhd|hd|sd|1080p|720p|576p|480p)\b",
+        r"\b("
+        r"4k|uhd|fhd|hd|sd|"
+        r"1080p|720p|576p|480p"
+        r")\b",
         "",
         text,
         flags=re.I
     )
 
+    # Supprimer espaces et caractères spéciaux
     text = re.sub(
-        r"\b(live|direct|fr|fra)\b",
+        r"[^a-z0-9]+",
         "",
-        text,
-        flags=re.I
+        text
     )
 
-    text = text.replace(
-        "&",
-        "and"
+    return text
+
+
+# ============================================================
+# NORMALISATION TVG-ID
+# ============================================================
+
+def normalize_tvg_id(text):
+
+    if not text:
+        return ""
+
+    text = unicodedata.normalize(
+        "NFKD",
+        text
     )
+
+    text = "".join(
+        char
+        for char in text
+        if not unicodedata.combining(char)
+    )
+
+    text = text.lower().strip()
 
     return re.sub(
         r"[^a-z0-9]+",
@@ -133,38 +165,10 @@ def normalize(text):
 
 
 # ============================================================
-# NORMALISATION TVG-ID
+# EXTRAIRE LE NOM DE LA CHAINE
 # ============================================================
 
-def normalize_id(text):
-
-    if not text:
-        return ""
-
-    text = unicodedata.normalize(
-        "NFKD",
-        text
-    )
-
-    text = "".join(
-        c for c in text
-        if not unicodedata.combining(c)
-    )
-
-    text = text.lower().strip()
-
-    return re.sub(
-        r"[-_.:]+",
-        "",
-        text
-    )
-
-
-# ============================================================
-# EXTRAIRE NOM DE CHAINE
-# ============================================================
-
-def channel_name(extinf):
+def get_channel_name(extinf):
 
     if "," not in extinf:
         return ""
@@ -179,7 +183,7 @@ def channel_name(extinf):
 # EXTRAIRE TVG-ID
 # ============================================================
 
-def extract_tvg_id(extinf):
+def get_tvg_id(extinf):
 
     match = re.search(
         r'tvg-id\s*=\s*"([^"]*)"',
@@ -194,10 +198,28 @@ def extract_tvg_id(extinf):
 
 
 # ============================================================
-# ANALYSER UNE PLAYLIST M3U
+# EXTRAIRE TVG-NAME
 # ============================================================
 
-def parse_m3u(text):
+def get_tvg_name(extinf):
+
+    match = re.search(
+        r'tvg-name\s*=\s*"([^"]*)"',
+        extinf,
+        flags=re.I
+    )
+
+    if match:
+        return match.group(1).strip()
+
+    return ""
+
+
+# ============================================================
+# PARSER UNE PLAYLIST M3U SOURCE
+# ============================================================
+
+def parse_source_playlist(text):
 
     channels = []
 
@@ -217,12 +239,20 @@ def parse_m3u(text):
             continue
 
         if (
-            current_info
+            current_info is not None
             and line
             and not line.startswith("#")
         ):
 
-            name = channel_name(
+            name = get_channel_name(
+                current_info
+            )
+
+            tvg_id = get_tvg_id(
+                current_info
+            )
+
+            tvg_name = get_tvg_name(
                 current_info
             )
 
@@ -231,6 +261,8 @@ def parse_m3u(text):
                 channels.append({
                     "info": current_info,
                     "name": name,
+                    "tvg_name": tvg_name,
+                    "tvg_id": tvg_id,
                     "url": line
                 })
 
@@ -240,116 +272,114 @@ def parse_m3u(text):
 
 
 # ============================================================
-# CREER LES INDEX
+# CONSTRUIRE INDEX PAR TVG-ID ET PAR NOM
 # ============================================================
 
 def build_indexes(channels):
 
-    by_name = {}
     by_id = {}
+    by_name = {}
 
-    for item in channels:
+    for channel in channels:
 
-        name_key = normalize(
-            item["name"]
+        # ----------------------------------------------------
+        # TVG-ID
+        # ----------------------------------------------------
+
+        tvg_id = normalize_tvg_id(
+            channel["tvg_id"]
         )
 
-        if name_key:
+        if tvg_id:
 
-            by_name.setdefault(
-                name_key,
-                item
-            )
+            if tvg_id not in by_id:
 
-        ident = normalize_id(
-            extract_tvg_id(
-                item["info"]
-            )
+                by_id[tvg_id] = channel
+
+        # ----------------------------------------------------
+        # NOM
+        # ----------------------------------------------------
+
+        name = normalize_name(
+            channel["name"]
         )
 
-        if ident:
+        if name:
 
-            by_id.setdefault(
-                ident,
-                item
-            )
+            if name not in by_name:
 
-    return by_name, by_id
+                by_name[name] = channel
+
+    return by_id, by_name
 
 
 # ============================================================
-# RECHERCHER UNE CHAINE
+# RECHERCHE STRICTE
 # ============================================================
 
-def find_match(
-    info,
-    name,
-    by_name,
-    by_id
+def find_source_channel(
+    extinf,
+    source_by_id,
+    source_by_name
 ):
 
     # --------------------------------------------------------
-    # 1. RECHERCHE PAR TVG-ID
+    # 1. TVG-ID
     # --------------------------------------------------------
 
-    ident = normalize_id(
-        extract_tvg_id(info)
+    source_tvg_id = normalize_tvg_id(
+        get_tvg_id(extinf)
     )
 
-    if ident:
+    if source_tvg_id:
 
-        if ident in by_id:
+        if source_tvg_id in source_by_id:
 
-            return by_id[ident]
+            return source_by_id[
+                source_tvg_id
+            ]
 
     # --------------------------------------------------------
-    # 2. RECHERCHE EXACTE PAR NOM
+    # 2. TVG-NAME
     # --------------------------------------------------------
 
-    key = normalize(name)
+    source_tvg_name = get_tvg_name(
+        extinf
+    )
+
+    if source_tvg_name:
+
+        key = normalize_name(
+            source_tvg_name
+        )
+
+        if key in source_by_name:
+
+            return source_by_name[key]
+
+    # --------------------------------------------------------
+    # 3. NOM AFFICHE
+    # --------------------------------------------------------
+
+    displayed_name = get_channel_name(
+        extinf
+    )
+
+    key = normalize_name(
+        displayed_name
+    )
 
     if key:
 
-        if key in by_name:
+        if key in source_by_name:
 
-            return by_name[key]
+            return source_by_name[key]
 
     # --------------------------------------------------------
-    # 3. RECHERCHE PARTIELLE
+    # AUCUNE CORRESPONDANCE
     # --------------------------------------------------------
 
-    if len(key) < 4:
-
-        return None
-
-    candidates = []
-
-    for source_key, item in by_name.items():
-
-        if (
-            key in source_key
-            or source_key in key
-        ):
-
-            candidates.append(
-                (
-                    abs(
-                        len(source_key)
-                        - len(key)
-                    ),
-                    item
-                )
-            )
-
-    if not candidates:
-
-        return None
-
-    candidates.sort(
-        key=lambda x: x[0]
-    )
-
-    return candidates[0][1]
+    return None
 
 
 # ============================================================
@@ -421,7 +451,7 @@ def test_stream(
             sample = data[:2000].lower()
 
             # ------------------------------------------------
-            # Refuser les pages HTML
+            # PAGE HTML = PAS UN FLUX
             # ------------------------------------------------
 
             if (
@@ -433,7 +463,7 @@ def test_stream(
                 return False
 
             # ------------------------------------------------
-            # HLS / M3U8
+            # HLS
             # ------------------------------------------------
 
             if (
@@ -456,7 +486,7 @@ def test_stream(
                 )
 
             # ------------------------------------------------
-            # Audio
+            # AUDIO
             # ------------------------------------------------
 
             if (
@@ -468,7 +498,7 @@ def test_stream(
                 return True
 
             # ------------------------------------------------
-            # Video
+            # VIDEO
             # ------------------------------------------------
 
             if (
@@ -494,7 +524,7 @@ def test_stream(
 
 
 # ============================================================
-# MISE A JOUR DE LA PLAYLIST
+# MISE A JOUR
 # ============================================================
 
 def update_playlist():
@@ -512,11 +542,11 @@ def update_playlist():
     print()
 
     # ========================================================
-    # TVRADIOZAP
+    # SOURCE 1 : TVRADIOZAP
     # ========================================================
 
     print(
-        "[1/2] Téléchargement TVRadioZap..."
+        "[1/2] Chargement de TVRadioZap..."
     )
 
     try:
@@ -526,18 +556,18 @@ def update_playlist():
             TVZ_HEADERS
         )
 
-        tvz_channels = parse_m3u(
+        tvz_channels = parse_source_playlist(
             tvz_text
         )
 
-        tvz_by_name, tvz_by_id = (
+        tvz_by_id, tvz_by_name = (
             build_indexes(
                 tvz_channels
             )
         )
 
         print(
-            f"      {len(tvz_channels)} chaînes trouvées."
+            f"      {len(tvz_channels)} chaînes chargées."
         )
 
     except Exception as exc:
@@ -546,38 +576,38 @@ def update_playlist():
             f"      ERREUR TVRadioZap : {exc}"
         )
 
-        tvz_by_name = {}
         tvz_by_id = {}
+        tvz_by_name = {}
 
     print()
 
     # ========================================================
-    # IPTV-ORG
+    # SOURCE 2 : IPTV-ORG
     # ========================================================
 
     print(
-        "[2/2] Téléchargement IPTV-org..."
+        "[2/2] Chargement de IPTV-org..."
     )
 
     try:
 
-        iptvorg_text = download(
+        iptv_text = download(
             IPTVORG_URL,
             GENERIC_HEADERS
         )
 
-        iptvorg_channels = parse_m3u(
-            iptvorg_text
+        iptv_channels = parse_source_playlist(
+            iptv_text
         )
 
-        iptvorg_by_name, iptvorg_by_id = (
+        iptv_by_id, iptv_by_name = (
             build_indexes(
-                iptvorg_channels
+                iptv_channels
             )
         )
 
         print(
-            f"      {len(iptvorg_channels)} chaînes trouvées."
+            f"      {len(iptv_channels)} chaînes chargées."
         )
 
     except Exception as exc:
@@ -586,17 +616,17 @@ def update_playlist():
             f"      ERREUR IPTV-org : {exc}"
         )
 
-        iptvorg_by_name = {}
-        iptvorg_by_id = {}
+        iptv_by_id = {}
+        iptv_by_name = {}
 
     print()
     print(
-        "Analyse de ta playlist..."
+        "Mise à jour sans modification de l'ordre..."
     )
     print()
 
     # ========================================================
-    # LIRE PLAYLIST
+    # LIRE LA PLAYLIST UTILISATEUR
     # ========================================================
 
     original_lines = PLAYLIST.read_text(
@@ -608,12 +638,10 @@ def update_playlist():
     current_info = None
 
     total = 0
-    tvz_found = 0
-    tvz_working = 0
-    iptvorg_found = 0
-    iptvorg_working = 0
+    tvz_ok = 0
+    iptv_ok = 0
     old_kept = 0
-    no_match = 0
+    not_found = 0
 
     # ========================================================
     # TRAITEMENT
@@ -633,9 +661,26 @@ def update_playlist():
 
             current_info = stripped
 
-            output_lines.append(
-                line
-            )
+            # IMPORTANT :
+            # On conserve exactement la position.
+            output_lines.append(line)
+
+            continue
+
+        # ----------------------------------------------------
+        # Lignes spéciales
+        # ----------------------------------------------------
+
+        if (
+            current_info is not None
+            and stripped.startswith("#")
+        ):
+
+            # #EXTVLCOPT etc.
+            # On conserve exactement la ligne
+            # et exactement sa position.
+
+            output_lines.append(line)
 
             continue
 
@@ -644,50 +689,36 @@ def update_playlist():
         # ----------------------------------------------------
 
         if (
-            current_info
+            current_info is not None
             and stripped
-            and not stripped.startswith("#")
         ):
-
-            name = channel_name(
-                current_info
-            )
-
-            if not name:
-
-                output_lines.append(
-                    line
-                )
-
-                current_info = None
-
-                continue
 
             total += 1
 
-            old_url = stripped
+            old_url = line
 
-            # =================================================
-            # PRIORITE 1 : TVRADIOZAP
-            # =================================================
-
-            tvz_match = find_match(
-                current_info,
-                name,
-                tvz_by_name,
-                tvz_by_id
+            channel_name = get_channel_name(
+                current_info
             )
 
-            if tvz_match:
+            # =================================================
+            # TVRADIOZAP
+            # =================================================
 
-                tvz_found += 1
+            tvz_match = find_source_channel(
+                current_info,
+                tvz_by_id,
+                tvz_by_name
+            )
+
+            if tvz_match is not None:
 
                 candidate_url = (
                     tvz_match["url"]
                 )
 
                 print(
-                    f"[TVZ] Test : {name}"
+                    f"[TVZ] {channel_name}"
                 )
 
                 if test_stream(
@@ -695,14 +726,15 @@ def update_playlist():
                     tvradiozap=True
                 ):
 
+                    # SEULEMENT L'URL CHANGE
                     output_lines.append(
                         candidate_url
                     )
 
-                    tvz_working += 1
+                    tvz_ok += 1
 
                     print(
-                        f"      OK -> {candidate_url}"
+                        "      -> TVRadioZap OK"
                     )
 
                     current_info = None
@@ -710,45 +742,42 @@ def update_playlist():
                     continue
 
                 print(
-                    "      Flux TVZ non valide."
+                    "      -> TVRadioZap indisponible"
                 )
 
             # =================================================
-            # PRIORITE 2 : IPTV-ORG
+            # IPTV-ORG
             # =================================================
 
-            iptv_match = find_match(
+            iptv_match = find_source_channel(
                 current_info,
-                name,
-                iptvorg_by_name,
-                iptvorg_by_id
+                iptv_by_id,
+                iptv_by_name
             )
 
-            if iptv_match:
-
-                iptvorg_found += 1
+            if iptv_match is not None:
 
                 candidate_url = (
                     iptv_match["url"]
                 )
 
                 print(
-                    f"[IPTV-ORG] Test : {name}"
+                    f"[IPTV-ORG] {channel_name}"
                 )
 
                 if test_stream(
-                    candidate_url,
-                    tvradiozap=False
+                    candidate_url
                 ):
 
+                    # SEULEMENT L'URL CHANGE
                     output_lines.append(
                         candidate_url
                     )
 
-                    iptvorg_working += 1
+                    iptv_ok += 1
 
                     print(
-                        f"      OK -> {candidate_url}"
+                        "      -> IPTV-org OK"
                     )
 
                     current_info = None
@@ -756,11 +785,11 @@ def update_playlist():
                     continue
 
                 print(
-                    "      Flux IPTV-org non valide."
+                    "      -> IPTV-org indisponible"
                 )
 
             # =================================================
-            # PRIORITE 3 : ANCIENNE URL
+            # GARDER L'ANCIENNE URL
             # =================================================
 
             output_lines.append(
@@ -772,10 +801,10 @@ def update_playlist():
                 and iptv_match is None
             ):
 
-                no_match += 1
+                not_found += 1
 
                 print(
-                    f"[AUCUNE SOURCE] {name}"
+                    f"[CONSERVEE] {channel_name}"
                 )
 
             else:
@@ -783,7 +812,7 @@ def update_playlist():
                 old_kept += 1
 
                 print(
-                    f"[ANCIEN LIEN] {name}"
+                    f"[ANCIENNE URL] {channel_name}"
                 )
 
             current_info = None
@@ -791,21 +820,17 @@ def update_playlist():
             continue
 
         # ----------------------------------------------------
-        # AUTRES LIGNES
+        # Toute autre ligne
         # ----------------------------------------------------
 
-        output_lines.append(
-            line
-        )
+        output_lines.append(line)
 
     # ========================================================
     # SAUVEGARDE
     # ========================================================
 
     PLAYLIST.write_text(
-        "\n".join(
-            output_lines
-        ) + "\n",
+        "\n".join(output_lines) + "\n",
         encoding="utf-8"
     )
 
@@ -818,40 +843,32 @@ def update_playlist():
     print(" MISE A JOUR TERMINEE")
     print("================================================")
     print()
-
     print(
-        f"Chaînes analysées         : {total}"
+        f"Chaînes analysées       : {total}"
     )
-
     print(
-        f"TVRadioZap trouvées       : {tvz_found}"
+        f"TVRadioZap utilisées    : {tvz_ok}"
     )
-
     print(
-        f"TVRadioZap fonctionnelles : {tvz_working}"
+        f"IPTV-org utilisées      : {iptv_ok}"
     )
-
     print(
-        f"IPTV-org trouvées         : {iptvorg_found}"
+        f"Anciennes URLs gardées : {old_kept}"
     )
-
     print(
-        f"IPTV-org fonctionnelles   : {iptvorg_working}"
+        f"Sans correspondance     : {not_found}"
     )
-
-    print(
-        f"Anciennes URLs gardées    : {old_kept}"
-    )
-
-    print(
-        f"Aucune correspondance     : {no_match}"
-    )
-
     print()
     print(
-        f"Playlist : {PLAYLIST}"
+        "ORDRE DE LA PLAYLIST : CONSERVE"
     )
-
+    print(
+        "METADONNEES            : CONSERVEES"
+    )
+    print()
+    print(
+        f"Fichier : {PLAYLIST}"
+    )
     print()
     print("================================================")
 
@@ -879,11 +896,9 @@ if __name__ == "__main__":
         print(
             "ERREUR FATALE :"
         )
-
         print(
             exc
         )
-
         print()
 
         raise
