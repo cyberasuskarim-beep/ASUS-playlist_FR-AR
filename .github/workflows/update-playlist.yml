@@ -1,1 +1,35 @@
+name: Mettre à jour les listes IPTV
 
+on:
+  schedule:
+    - cron: '0 */6 * * *' # S'exécute automatiquement toutes les 6 heures
+  workflow_dispatch: # Permet de lancer le test manuellement
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Installer les dépendances
+        run: pip install requests
+
+      - name: Exécuter TVradiozap
+        run: python update_tvradiozap.py
+
+      - name: Exécuter IPTV-org
+        run: python update_iptvorg.py
+
+      - name: Sauvegarder et publier les modifications
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.m3u
+          git diff --cached --quiet || git commit -m "Mise à jour automatique des listes IPTV"
+          git push
