@@ -2,8 +2,11 @@ name: Mettre à jour les listes IPTV
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # S'exécute automatiquement toutes les 6 heures
-  workflow_dispatch: # Permet de lancer le test manuellement
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
