@@ -394,3 +394,18 @@ https://tvradiozap.eu/671
 #EXTVLCOPT:http-referrer=https://tvradiozap.eu/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/899
+#########################################RADIO########################################################
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",06 - Bejaia
+https://radiobejaia.ice.infomaniak.ch/bejaia.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",15 - Tizi Ouzou
+https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",35 - Boumerdes
+https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",16 - Alger
+https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",18 - Jijel
+https://radiojijel.ice.infomaniak.ch/jijel.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",10 - Bouira
+https://radiobouira.ice.infomaniak.ch/bouira.mp3
+#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",19 - Setif
+https://radiosetif.ice.infomaniak.ch/setif.mp3
