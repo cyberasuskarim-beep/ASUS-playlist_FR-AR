@@ -1,19 +1,21 @@
 import os
+import re
+from bs4 import BeautifulSoup
 import requests
 
 # URL de votre playlist originale sur GitHub
 M3U_URL = "https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main/ASUS-playlist_FR-AR.m3u"
 OUTPUT_FILENAME = "ASUS-playlist_FR-AR.m3u"
 
-# Vos radios exactes avec leurs flux directs officiels (Infomaniak)
-FRESH_RADIOS_STREAMS = {
-    "Bejaia": "https://radiobejaia.ice.infomaniak.ch/bejaia.mp3",
-    "Tizi Ouzou": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
-    "Boumerdes": "https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3",
-    "Alger": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",
-    "Jijel": "https://radiojijel.ice.infomaniak.ch/jijel.mp3",
-    "Bouira": "https://radiobouira.ice.infomaniak.ch/bouira.mp3",
-    "Setif": "https://radiosetif.ice.infomaniak.ch/setif.mp3",
+# Dictionnaire associant chaque radio à sa page de lecteur officielle où se trouve le flux frais
+RADIO_PLAYER_PAGES = {
+    "Bejaia": "https://my.radioalgerie.dz/player/bejaia.html",
+    "Tizi Ouzou": "https://my.radioalgerie.dz/player/tiziouzou.html",
+    "Boumerdes": "https://my.radioalgerie.dz/player/boumerdes.html",
+    "Alger": "https://my.radioalgerie.dz/player/elbahdja.html",
+    "Jijel": "https://my.radioalgerie.dz/player/jijel.html",
+    "Bouira": "https://my.radioalgerie.dz/player/bouira.html",
+    "Setif": "https://my.radioalgerie.dz/player/setif.html",
 }
 
 HEADERS = {
@@ -24,8 +26,55 @@ HEADERS = {
 }
 
 
+def fetch_fresh_streams():
+  """Visite les pages de lecteur pour extraire les liens de streaming actuels"""
+  fresh_streams = {}
+  session = requests.Session()
+  session.headers.update(HEADERS)
+
+  for name, page_url in RADIO_PLAYER_PAGES.items():
+    try:
+      response = session.get(page_url, timeout=10)
+      response.raise_for_status()
+
+      soup = BeautifulSoup(response.text, "html.parser")
+      stream_url = None
+
+      # 1. Chercher dans les balises <audio> ou <source>
+      audio_tag = soup.find(["audio", "source"])
+      if audio_tag and audio_tag.get("src"):
+        stream_url = audio_tag["src"]
+
+      # 2. Si non trouvé, chercher via une expression régulière le lien .mp3 ou flux icecast dans la page
+      if not stream_url:
+        match = re.search(
+            r'https?://[^\s\'"]+\.(?:mp3|aac|m3u8|stream)[^\s\'"]*',
+            response.text,
+        )
+        if match:
+          stream_url = match.group(0)
+
+      if stream_url:
+        fresh_streams[name] = stream_url
+        print(f"[TROUVÉ] {name} -> {stream_url}")
+      else:
+        print(f"[AVERTISSEMENT] Aucun flux trouvé pour {name}")
+
+    except Exception as e:
+      print(f"[ERREUR] Impossible de récupérer {name} : {e}")
+
+  return fresh_streams
+
+
 def update_m3u_playlist():
-  print(" [1/2] Lecture de la playlist originale sur GitHub...")
+  print(" [1/3] Récupération des nouveaux liens depuis Radio Algérie...")
+  fresh_streams = fetch_fresh_streams()
+
+  if not fresh_streams:
+    print("Aucun flux récupéré, arrêt de la mise à jour.")
+    return
+
+  print("\n [2/3] Lecture de la playlist sur GitHub...")
   if os.path.exists(OUTPUT_FILENAME):
     with open(OUTPUT_FILENAME, "r", encoding="utf-8") as f:
       content = f.read()
@@ -35,7 +84,7 @@ def update_m3u_playlist():
       res.raise_for_status()
       content = res.text
     except Exception as e:
-      print(f"Erreur lors du téléchargement de la playlist : {e}")
+      print(f"Erreur téléchargement M3U : {e}")
       return
 
   lines = content.splitlines()
@@ -43,27 +92,25 @@ def update_m3u_playlist():
   i = 0
   radios_updated = 0
 
-  print(" [2/2] Mise à jour des liens de vos radios régionales...")
+  print("\n [3/3] Mise à jour des lignes dans le fichier M3U...")
   while i < len(lines):
     line = lines[i]
 
-    # Détection des lignes #EXTINF
     if line.startswith("#EXTINF"):
       matched_radio = None
-      # On cherche si la ligne correspond à l'une de vos stations
-      for radio_key in FRESH_RADIOS_STREAMS:
-        if radio_key.lower() in line.lower():
-          matched_radio = radio_key
+      for radio_name in fresh_streams:
+        if radio_name.lower() in line.lower():
+          matched_radio = radio_name
           break
 
       if matched_radio:
-        # On conserve exactement votre ligne #EXTINF d'origine (avec logos et titres)
+        # Conserver la ligne EXTINF originale intacte (avec logo et nom)
         new_lines.append(line)
 
-        # On injecte le flux direct associé
-        new_lines.append(FRESH_RADIOS_STREAMS[matched_radio])
+        # Injecter le lien frais récupéré dynamiquement
+        new_lines.append(fresh_streams[matched_radio])
 
-        # S'il y avait une ancienne ligne d'URL (ou des options) juste en dessous, on la saute
+        # Sauter l'ancienne ligne de flux s'il y en a une en dessous
         if i + 1 < len(lines):
           if lines[i + 1].startswith("#EXTVLCOPT"):
             i += 1
@@ -78,17 +125,15 @@ def update_m3u_playlist():
         i += 1
         continue
 
-    # Pour toutes les autres lignes (Chaînes TV, autres radios, etc.), on ne touche à rien
     new_lines.append(line)
     i += 1
 
-  # Écriture du fichier final mis à jour
   with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
     f.write("\n".join(new_lines) + "\n")
 
   print(
-      f"\nMise à jour réussie ! {radios_updated} radio(s) mise(s) à jour avec"
-      " leurs flux directs Infomaniak."
+      f"\nMise à jour terminée avec succès ! {radios_updated} radio(s) rafraîchie(s)"
+      " dynamiquement."
   )
 
 
