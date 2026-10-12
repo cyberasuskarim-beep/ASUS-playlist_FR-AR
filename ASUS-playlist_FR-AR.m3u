@@ -395,17 +395,30 @@ https://tvradiozap.eu/671
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/899
 #########################################RADIO########################################################
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",06 - Bejaia
-https://radiobejaia.ice.infomaniak.ch/bejaia.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",15 - Tizi Ouzou
-https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",35 - Boumerdes
-https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",16 - Alger
-https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",18 - Jijel
-https://radiojijel.ice.infomaniak.ch/jijel.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",10 - Bouira
-https://radiobouira.ice.infomaniak.ch/bouira.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",19 - Setif
-https://radiosetif.ice.infomaniak.ch/setif.mp3
+#EXTINF:-1 group-title="Mes Radios" tvg-name="Chaine 1",Chaine 1 (الإذاعة الأولى)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/chaine1
+
+#EXTINF:-1 group-title="Mes Radios" tvg-name="Chaine 2",Chaine 2 (الإذاعة الثانية)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/chaine2
+
+#EXTINF:-1 group-title="Mes Radios" tvg-name="Chaine 3",Chaine 3 (الإذاعة الثالثة)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/chaine3
+
+#EXTINF:-1 group-title="Mes Radios" tvg-name="JIL FM",JIL FM (جيل إف إم)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/jilfm
+
+#EXTINF:-1 group-title="Mes Radios" tvg-name="Radio Coran",Radio Coran (إذاعة القرآن الكريم)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/coran
+
+#EXTINF:-1 group-title="Mes Radios" tvg-name="Radio Culture",Radio Culture (إذاعة الثقافية)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/culture
+
+#EXTINF:-1 group-title="Mes Radios" tvg-name="Radio Soummam",Radio Soummam (إذاعة الصومام)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://webradio.radioalgerie.dz/soummam
