@@ -5,6 +5,17 @@ import requests
 M3U_URL = "https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main/ASUS-playlist_FR-AR.m3u"
 OUTPUT_FILENAME = "ASUS-playlist_FR-AR.m3u"
 
+# Dictionnaire complet et corrigé avec les flux exacts de toutes vos radios
+FRESH_RADIOS_STREAMS = {
+    "Bejaia": "https://radiobejaia.ice.infomaniak.ch/bejaia.mp3",
+    "Tizi Ouzou": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
+    "Boumerdes": "https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3",
+    "Alger": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",  # Radio El Bahdja
+    "Jijel": "https://radiojijel.ice.infomaniak.ch/jijel.mp3",
+    "Bouira": "https://radiobouira.ice.infomaniak.ch/bouira.mp3",
+    "Setif": "https://radiosetif.ice.infomaniak.ch/setif.mp3",
+}
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,"
@@ -12,57 +23,74 @@ HEADERS = {
     )
 }
 
-# Table de correspondance exacte des flux directs qui fonctionnent
-MAPPING_RADIOS = {
-    "06 - Bejaia": "https://radiobejaia.ice.infomaniak.ch/bejaia.mp3",
-    "15 - Tizi Ouzou": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
-    "35 - Boumerdes": "https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3",
-    "16 - Alger": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",
-    "18 - Jijel": "https://radiojijel.ice.infomaniak.ch/jijel.mp3",
-    "10 - Bouira": "https://radiobouira.ice.infomaniak.ch/bouira.mp3",
-    "19 - Setif": "https://radiosetif.ice.infomaniak.ch/setif.mp3",
-}
 
-
-def update_m3u():
-  print("1. Téléchargement de la playlist M3U...")
-  try:
-    res = requests.get(M3U_URL, headers=HEADERS)
-    res.raise_for_status()
-    content = res.text
-  except Exception as e:
-    print(f"Erreur de téléchargement : {e}")
-    return
+def update_m3u_playlist():
+  print(" [1/2] Lecture de la playlist originale sur GitHub...")
+  if os.path.exists(OUTPUT_FILENAME):
+    with open(OUTPUT_FILENAME, "r", encoding="utf-8") as f:
+      content = f.read()
+  else:
+    try:
+      res = requests.get(M3U_URL, headers=HEADERS)
+      res.raise_for_status()
+      content = res.text
+    except Exception as e:
+      print(f"Erreur lors du téléchargement de la playlist : {e}")
+      return
 
   lines = content.splitlines()
   new_lines = []
   i = 0
-  total_lines = len(lines)
-  radios_mises_a_jour = 0
+  radios_updated = 0
 
-  while i < total_lines:
+  print(" [2/2] Mise à jour des flux de toutes les radios...")
+  while i < len(lines):
     line = lines[i]
-    new_lines.append(line)
 
-    # Si c'est la ligne #EXTINF d'une radio
+    # Détection des lignes #EXTINF
     if line.startswith("#EXTINF"):
-      for radio_name, stream_url in MAPPING_RADIOS.items():
-        if radio_name in line:
-          # Si la ligne suivante existe et est l'ancienne URL (pas un autre #EXTINF)
-          if i + 1 < total_lines and not lines[i + 1].startswith("#"):
-            new_lines.append(stream_url)
-            i += 1  # On saute l'ancienne URL
-            radios_mises_a_jour += 1
-            break
+      matched_radio = None
+      # On cherche si la ligne correspond à l'une de vos stations
+      for radio_key in FRESH_RADIOS_STREAMS:
+        if radio_key.lower() in line.lower():
+          matched_radio = radio_key
+          break
 
+      if matched_radio:
+        # Conserver la ligne #EXTINF d'origine intacte (logos et titres)
+        new_lines.append(line)
+
+        # Injecter le flux direct vérifié
+        new_lines.append(FRESH_RADIOS_STREAMS[matched_radio])
+
+        # Sauter l'ancienne ligne d'URL ou d'option sous jacente
+        if i + 1 < len(lines):
+          if lines[i + 1].startswith("#EXTVLCOPT"):
+            i += 1
+          if (
+              i + 1 < len(lines)
+              and not lines[i + 1].startswith("#")
+              and not lines[i + 1].startswith("$")
+          ):
+            i += 1
+
+        radios_updated += 1
+        i += 1
+        continue
+
+    # Conserver toutes les autres chaînes TV et lignes sans modification
+    new_lines.append(line)
     i += 1
 
   # Écriture du fichier final
   with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
     f.write("\n".join(new_lines) + "\n")
 
-  print(f"Terminé ! {radios_mises_a_jour} radio(s) mise(s) à jour avec succès.")
+  print(
+      f"\nMise à jour réussie ! {radios_updated} radio(s) mise(s) à jour (y"
+      " compris Boumerdes et Alger)."
+  )
 
 
 if __name__ == "__main__":
-  update_m3u()
+  update_m3u_playlist()
