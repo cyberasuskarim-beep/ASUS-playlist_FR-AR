@@ -5,15 +5,17 @@ import requests
 M3U_URL = "https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main/ASUS-playlist_FR-AR.m3u"
 OUTPUT_FILENAME = "ASUS-playlist_FR-AR.m3u"
 
-# Dictionnaire complet et corrigé avec les flux exacts de toutes vos radios
+# Dictionnaire complet de vos radios
 FRESH_RADIOS_STREAMS = {
-    "Bejaia": "https://radiobejaia.ice.infomaniak.ch/bejaia.mp3",
-    "Tizi Ouzou": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
-    "Boumerdes": "https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3",
-    "Alger": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",  # Radio El Bahdja
-    "Jijel": "https://radiojijel.ice.infomaniak.ch/jijel.mp3",
-    "Bouira": "https://radiobouira.ice.infomaniak.ch/bouira.mp3",
-    "Setif": "https://radiosetif.ice.infomaniak.ch/setif.mp3",
+    "bejaia": "https://radiobejaia.ice.infomaniak.ch/bejaia.mp3",
+    "tizi ouzou": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
+    "boumerdes": "https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3",
+    "jijel": "https://radiojijel.ice.infomaniak.ch/jijel.mp3",
+    "bouira": "https://radiobouira.ice.infomaniak.ch/bouira.mp3",
+    "setif": "https://radiosetif.ice.infomaniak.ch/setif.mp3",
+    # Mots-clés élargis pour Alger / El Bahdja
+    "alger": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",
+    "bahdja": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",
 }
 
 HEADERS = {
@@ -49,19 +51,21 @@ def update_m3u_playlist():
 
     # Détection des lignes #EXTINF
     if line.startswith("#EXTINF"):
-      matched_radio = None
-      # On cherche si la ligne correspond à l'une de vos stations
-      for radio_key in FRESH_RADIOS_STREAMS:
-        if radio_key.lower() in line.lower():
-          matched_radio = radio_key
+      matched_url = None
+      line_lower = line.lower()
+
+      # On cherche quel mot-clé correspond à cette ligne
+      for keyword, stream_url in FRESH_RADIOS_STREAMS.items():
+        if keyword in line_lower:
+          matched_url = stream_url
           break
 
-      if matched_radio:
+      if matched_url:
         # Conserver la ligne #EXTINF d'origine intacte (logos et titres)
         new_lines.append(line)
 
         # Injecter le flux direct vérifié
-        new_lines.append(FRESH_RADIOS_STREAMS[matched_radio])
+        new_lines.append(matched_url)
 
         # Sauter l'ancienne ligne d'URL ou d'option sous jacente
         if i + 1 < len(lines):
@@ -88,7 +92,7 @@ def update_m3u_playlist():
 
   print(
       f"\nMise à jour réussie ! {radios_updated} radio(s) mise(s) à jour (y"
-      " compris Boumerdes et Alger)."
+      " compris Alger)."
   )
 
 
