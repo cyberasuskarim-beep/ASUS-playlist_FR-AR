@@ -325,20 +325,20 @@ http://41.205.93.154/OKOO/index.m3u8
 https://sv1.data-stream.top/8c0a287e56a6e1843143904778be3775b4d3edd4fba4ffcc3f72638c7a71d4d4/hls/francetv4.m3u8
 #EXTINF:-1 tvg-id="France5.fr@SD" group-title="Cinéma & +",France 5 (720p)
 http://145.239.5.177/305/index.m3u8
-#EXTINF:-1 tvg-id="CinePlusClassic.fr@SD" group-title="Cinéma & +,Cine+ Classic
+#EXTINF:-1 tvg-id="CinePlusClassic.fr@SD" group-title="Cinéma & +",Cine+ Classic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147/CineClassic/index.m3u8
-#EXTINF:-1 tvg-id="CinePlusEmotion.fr@SD" group-title="Cinéma & +,Cine+ Emotion (720p)
+#EXTINF:-1 tvg-id="CinePlusEmotion.fr@SD" group-title="Cinéma & +",Cine+ Emotion (720p)
 http://145.239.5.177/337/index.m3u8
-#EXTINF:-1 tvg-id="CinePlusFrisson.fr@SD" group-title="Cinéma & +,Cine+ Frisson (1080p)
+#EXTINF:-1 tvg-id="CinePlusFrisson.fr@SD" group-title="Cinéma & +",Cine+ Frisson (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/CineFrisson/index.m3u8
-#EXTINF:-1 tvg-id="CanalPlusCinemas.fr@SD" group-title="Cinéma & +,Canal+ Cinemas (720p)
+#EXTINF:-1 tvg-id="CanalPlusCinemas.fr@SD" group-title="Cinéma & +",Canal+ Cinemas (720p)
 http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
-#EXTINF:-1 tvg-id="CanalPlusSport360.fr@SD" group-title="Cinéma & +,Canal+ Sport 360
+#EXTINF:-1 tvg-id="CanalPlusSport360.fr@SD" group-title="Cinéma & +",Canal+ Sport 360
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-#EXTINF:-1 tvg-id="CStar.fr@SD" group-title="Cinéma & +,C Star (1080p)
+#EXTINF:-1 tvg-id="CStar.fr@SD" group-title="Cinéma & +",C Star (1080p)
 http://145.239.5.177/361/index.m3u8
-#EXTINF:-1 tvg-id="AB1.fr@SD" group-title="Cinéma & +,AB1 (720p)
+#EXTINF:-1 tvg-id="AB1.fr@SD" group-title="Cinéma & +",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
