@@ -99,13 +99,11 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=15081
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15226
 #EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/eedf4ae4-7170-48f2-a686-98e80d0d463f-width308-quality100.jpeg" tvg-country="France" group-title="Docs & Replay",Echappées belles
 https://amg02232-botravail-amg02232c1-samsung-fr-308.playouts.now.amagi.tv/playlist/amg02232-botravail-echappeesbelles-samsungfr/playlist.m3u8
-#EXTINF:-1 tvg-id=""," group-title="Docs & Replay",Homicide la chaîne du fait divers (1080p)
-https://rakutenaa-fastmedia-homicide-rakuten-pw6g3.amagi.tv/playlist/rakutenAA-fastmedia-homicide-rakuten/playlist.m3u8
 #EXTINF:-1  tvg-logo="https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png" group-title="Docs & Replay",Adjugé vendu !
 https://jmp2.uk/plu-64bab8ba5dc1660008969b5a.m3u8
-#EXTINF:-1 tvg-id=""," group-title="Docs & Replay",Echappées Belles & Co (720p)
+#EXTINF:-1 tvg-id="" group-title="Docs & Replay",Echappées Belles & Co (720p)
 https://jmp2.uk/plu-63b578b524f0cf00072f2a52.m3u8
-#EXTINF:-1 tvg-id="",group-title="Docs & Replay"Faites entrer l'accusé
+#EXTINF:-1 tvg-id="" group-title="Docs & Replay"Faites entrer l'accusé
 https://jmp2.uk/plu-662a622b5e2370000800f392.m3u8
 #EXTINF:-1 group-title="Docs & Replay",Juste pour Rire GAGS (720p)
 https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8
