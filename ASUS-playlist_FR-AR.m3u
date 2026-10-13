@@ -107,6 +107,13 @@ https://jmp2.uk/plu-63b578b524f0cf00072f2a52.m3u8
 https://jmp2.uk/plu-662a622b5e2370000800f392.m3u8
 #EXTINF:-1 group-title="Docs & Replay",Juste pour Rire GAGS (720p)
 https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8
+#EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=small-60&scale=2&url=https://provider-static.plex.tv/epg/cms/production/82ee42cc-ff1b-4faa-97df-d99ff9b9b7e2/INTOCRIMELRED_WHITE_TEXTRDX.png" tvg-
+country="France" group-title="Docs & Replay",Into Crime
+https://d1hyfk3twnpijh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-avx3hcmvfvp8q/index.m3u8
+#EXTINF:-1 tvg-logo="https://fr.webedia-group.com/wp-content/uploads/sites/6/2022/04/5396-epicurieux-orig-5.png" tvg-country="France" group-title="Docs & Replay",Epicurieux
+https://d1dzvywp5tcxbn.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ryq1as86j3gxc/epic.m3u8
+#EXTINF:-1 tvg-logo="https://teleculturelle.com/wp-content/uploads/2024/01/tcm_logo_transparent-300x99.png" tvg-country="Canada" group-title="Docs & Replay",TCM-TV   (CA)
+https://teleculturelle.vedge.infomaniak.com/livecast/teleculturelle/master.m3u8
 ###########################################################JEUNESSE###########################################################
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Jeunesse",Disney Jr. (1080p)
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
@@ -350,6 +357,10 @@ http://41.205.93.154/SYFY/index.m3u8
 #EXTINF:-1 tvg-id="Syfy.fr@SD" group-title="Cinéma & +",Syfy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/SYFY/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brut_logo.svg/330px-Brut_logo.svg.png" tvg-country="France" group-title="Cinéma & +",Brut
+https://live-cdn-brut-lg-fr-euw1.cmamedia.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/52/Noovo_logo.png" tvg-country="Canada" group-title="Cinéma & +",Noovo Comédies  (CA)
+https://d2s8iafdyzconc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6x2p3ho0vw00a/Noovo_Comedies_Home.m3u8
 ##################################################################NEWS################################################################################
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="News",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
