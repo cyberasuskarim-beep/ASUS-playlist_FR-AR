@@ -227,8 +227,8 @@ https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6757689a30e1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=12780
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTQ5NjAwODItNDkxYy00NjJlLWFhY2ItMGJkY2EyNjY0YzAwXkEyXkFqcGc@._V1_.jpg" tvg-country="France" group-title="Cinéma & +",Moviesphere
 https://amg00353-amg00353c72-samsung-fr-10408.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00353-lionsgatetvfast-moviespherefravtt-samsungfr/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://mytimemovienetwork.com/wp-content/uploads/2025/07/cropped-MT_SHOWCASE_LOGO_120x90.png" tvg-country="France" group-title="Cinéma & +",MyTime Movie Network
-https://samsunguk-appletree-mytimefrance-samsungfr-69xit.amagi.tv/playlist/samsunguk-appletree-mytimefrance-samsungfr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://mytimemovienetwork.com/wp-content/uploads/2025/07/cropped-MT_SHOWCASE_LOGO_120x90.png" tvg-country="France" group-title="Cinéma & +",MyTime Movie Network France (1080p)
+https://mytimemoviefrance-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/e87ece78-2a31-4a08-a673-6d08bb8f8a06-films-d-action-rakuten-tv-1621956489.png" tvg-country="France" group-title="Cinéma & 
 +",Rakuten TV Action
 https://01ac9352fbfa4204998783d41f9b1a2e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6068/master.m3u8
