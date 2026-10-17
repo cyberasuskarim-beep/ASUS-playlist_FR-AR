@@ -217,12 +217,8 @@ https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/
 #EXTINF:-1 tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/130d95fd-f638-4e54-bde9-5d0af0941974-emotion-l-1639670054-width330-quality90.jpeg" tvg-country="France" group-
 title="Cinéma & +",Emotion'L
 https://amg00711-zylo-france-zylo-emotional-rakuten-frukp.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-emotional-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/42c9c621-f61c-4a9d-9de4-362ba0cf4a29-width200-quality90.jpeg" tvg-country="France" group-title="Cinéma & +",Grjngo
-https://epg.provider.plex.tv/library/parts/6430aa45fc3be5947780904e-6757689a30e1e3d0bb138d6b/variant.m3u8?x-plex-token=xPQdpe23DJ8D5kEhsbKW&x-plex-advertising-identifier=&x-plex-client-identifier=0845a7c1-5360-
-4837-a7f7-0b64d5c8fee4&x-plex-playback-id=p_c393cc23-d56a-4cfa-b2e1-513a9fc37338&x-plex-provider-streaming-start=1786871022&url=562ed3e50d95c68cbe9a55fe52b9f1d5-
-1d024a37a6fe621d6de594d6992b44b95e162ac01e719ff9821ac3db5cb52dae2f67f0b31a524681de3df7f63e609550c900455dc22fcaee85cbdc0e727649f6433a11b1ec9256719ffb7e704df81e699601a420996e35e5f2786f6061
-9c2d5c26168d7642dd6d43c94e39d6acb75b6268c99253c279d24df0074fd42351120796eb67ac0fe7ef420add46d858107e21315f39a85cf68ed878a3e76985b98de3f1eaafcad87814608069a108c5f4df8a64e48d67869f1ccb5cf
-74e6fdc06c45b90c8539bb54eb4ac1fa6777b98b0097c
+#EXTINF:-1 tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/42c9c621-f61c-4a9d-9de4-362ba0cf4a29-width200-quality90.jpeg" tvg-country="France" group-title="Cinéma & +",Grjngo Films de Western (1080p)
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/a5fc1b02-5945-11ef-a2df-87241c204d22/0/master.m3u8?country=fr&vendor=rakuten
 #EXTINF:-1 tvg-logo="https://lge-static.ottera.tv/prod/lge/linear_channel/logo/1600x400/lg1_800x200_white_6.png" tvg-country="France" group-title="Cinéma & +",LG 1+1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=12780
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BOTQ5NjAwODItNDkxYy00NjJlLWFhY2ItMGJkY2EyNjY0YzAwXkEyXkFqcGc@._V1_.jpg" tvg-country="France" group-title="Cinéma & +",Moviesphere
