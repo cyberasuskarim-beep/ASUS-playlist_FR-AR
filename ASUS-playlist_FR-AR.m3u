@@ -27,6 +27,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=15226
 https://jmp2.uk/plu-64bab8ba5dc1660008969b5a.m3u8
 #EXTINF:-1 tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" tvg-country="France" group-title="Docs & Replay",TV5Monde+ Voyage
 https://d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8q6p9i1t9dw2k/tvfvo.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1300003HM_20250811T172926SQUARE.png" tvg-country="France" group-title="Docs & Replay",TV5Monde+ Chefs
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=16223
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10243
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 2
@@ -105,14 +107,16 @@ http://flussonic.linkintel.ru/che/index.m3u8
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/arte.m3u8
 #EXTINF:-1 group-title="Docs & Replay",Canal Savoir (360p)
 https://tvradiozap.eu/670
-#EXTINF:-1 group-title="Docs & Replay",Juste pour Rire GAGS (720p)
-https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8
 #EXTINF:-1 tvg-logo="https://fr.webedia-group.com/wp-content/uploads/sites/6/2022/04/5396-epicurieux-orig-5.png" tvg-country="France" group-title="Docs & Replay",Epicurieux
 https://d1dzvywp5tcxbn.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ryq1as86j3gxc/epic.m3u8
 #EXTINF:-1 tvg-logo="https://teleculturelle.com/wp-content/uploads/2024/01/tcm_logo_transparent-300x99.png" tvg-country="Canada" group-title="Docs & Replay",TCM-TV   (CA)
 https://teleculturelle.vedge.infomaniak.com/livecast/teleculturelle/master.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@SD" tvg-logo="https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png" group-title="Docs & Replay",Mr Bean Live Action (1080p)
 https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/494bf8eb-ab6c-40ba-884a-3625c9181e1d-width200-quality90.jpeg" tvg-country="France" group-title="Docs & Replay",Mr. Bean
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+#EXTINF:-1 group-title="Docs & Replay",Juste pour Rire GAGS (720p)
+https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8
 ###########################################################JEUNESSE###########################################################
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Jeunesse",Disney Jr. (1080p)
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
