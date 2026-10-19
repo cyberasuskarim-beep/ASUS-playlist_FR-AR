@@ -21,6 +21,10 @@ https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://dltlq2xit8olv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-htbn65lnpv00c/Jirai_dormir_chez_vous_FR.m3u8
 #EXTINF:-1 tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle10920BFMGrandsreportages.jpg" tvg-country="France" group-title="Docs & Replay",BFM Grands Reportages
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8
+#EXTINF:-1 tvg-logo="https://tvradiozap.eu/tv/logos/missionintervention.jpg" tvg-country="France" group-title="Docs & Replay",Mission Intervention
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=15226
+#EXTINF:-1  tvg-logo="https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png" group-title="Docs & Replay",Adjugé vendu !
+https://jmp2.uk/plu-64bab8ba5dc1660008969b5a.m3u8
 #EXTINF:-1 tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" tvg-country="France" group-title="Docs & Replay",TV5Monde+ Voyage
 https://d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8q6p9i1t9dw2k/tvfvo.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 1
@@ -49,22 +53,24 @@ https://jmp2.uk/plu-611e771e2f5f180007002224.m3u8
 https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8
 #EXTINF:-1 tvg-logo="https://tvradiozap.eu/tv/logos/voyages+.png" tvg-country="France" group-title="Docs & Replay",Voyages+
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ff8d1526-e572-4bb5-8c93-560eb80115bf/manifest.m3u8
+#EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/eedf4ae4-7170-48f2-a686-98e80d0d463f-width308-quality100.jpeg" tvg-country="France" group-title="Docs & Replay",Echappées belles
+https://amg02232-botravail-amg02232c1-samsung-fr-308.playouts.now.amagi.tv/playlist/amg02232-botravail-echappeesbelles-samsungfr/playlist.m3u8
+#EXTINF:-1 tvg-id="" group-title="Docs & Replay",Echappées Belles & Co (720p)
+https://jmp2.uk/plu-63b578b524f0cf00072f2a52.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Txphd_logo_2015.png" tvg-country="France" group-title="Docs & Replay",Travelxp
+https://travelxp-travelxp-4-fr.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/bf4a91c7-9a64-4071-af09-fa4646c4005d-width200-quality90.jpeg" tvg-country="France" group-title="Docs & Replay",Les secrets de nos régions
+https://amg02393-awpg-amg02393c6-rakuten-uk-2460.playouts.now.amagi.tv/playlist/amg02393-awpg-lessecretsdenosregions-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/8b/La_maison_France_5_2010_logo.png" tvg-country="France" group-title="Docs & Replay",LMF5 La Maison France 5
+https://d6n7ne3hzi1p.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ijlr3nmzh7cue/LaMaisonFrance5_FR.m3u8
 #EXTINF:-1 tvg-logo="https://tvdecouverte.ch/wp-content/uploads/2022/11/Couleur_2_TVDecouverte-1024x184.png" tvg-country="Suisse" group-title="Docs & Replay",TVD (CH)
 https://tvdecouverte.vedge.infomaniak.com/livecast/ik:tvdecouverte/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/Tech_%26_Co.svg/500px-Tech_%26_Co.svg.png" tvg-country="France" group-title="Docs & Replay",Tech&Co
 https://live-cdn-technco-lg-main-euw1.bfmb.bct.nextradiotv.com/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MDHN2Vc.png" group-title="Docs & Replay",Y'a Que La Vérité Qui Compte La Chaîne (1080p)
 https://rakutenaa-fastmedia-yaquelaverite-rakuten-81p2x.amagi.tv/playlist/rakutenAA-fastmedia-yaquelaverite-rakuten/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/bf4a91c7-9a64-4071-af09-fa4646c4005d-width200-quality90.jpeg" tvg-country="France" group-title="Docs & Replay",Les secrets de nos régions
-https://amg02393-awpg-amg02393c6-rakuten-uk-2460.playouts.now.amagi.tv/playlist/amg02393-awpg-lessecretsdenosregions-rakutenuk/playlist.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/3b014c48-5490-4318-8b8e-7dc4e4861ef3/variants/49f6b89bd291722c227e312eaa7d04e4380b4c0b7611bf68a82c328d2c00fcb9-width308-quality90.webp" tvg-country="France" group-title="Docs & Replay",Mayday Catastrophes Aériennes
 https://amg01821-amg01821c40-rakuten-fr-10668.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01821-lovetvfast-maydaycatastropheaeriennefr-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" tvg-country="France" group-title="Docs & Replay",Crime Scene
-https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99994448
 #EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/8fb17498-49c7-4b4b-9149-dd92d51a8516/Adrenaline_logo_1500x1000_all_white_for_attribution.png" tvg-country="France" group-title="Docs & Replay",Adrénaline
 https://jmp2.uk/plex-6430aa45fc3be5947780904e-6a285269915c7c0d3211be8b.m3u8
 #EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=small-120&scale=2&url=https://provider-static.plex.tv/epg/cms/production/12ed6042-d759-427f-8856-c4a8d1d56cb4/Echos_whiteRDX.png" tvg-country="France" group-title="Docs & Replay",Echos du monde
@@ -85,36 +91,22 @@ https://amg01796-fastmediabackbo-enquetes-de-choc-plex-rasaw.amagi.tv/playlist/a
 https://d1nvn92ps192dc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xeveldck6gfqd/v1/channel/ch-3-docs-enqu-tes-by-society/hls.m3u8?ads.ads_cdn=cf&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.consent=%7BTC_STRING%7D&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=FR15000010E&ads.ssai_vendor=SSSLIVE&pb_type=pb-xeveldck6gfqd_cloudfront
 #EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/84791923-c240-4b13-99c5-cafab9931e33/HOMICIDE_ARTWORK_VERTICAL__-_richard_maroko.jpg" tvg-country="France" group-title="Docs & Replay",Homicide
 https://amg01796-fastmediabackbo-homicide-plex-xlwam.amagi.tv/playlist/amg01796-fastmediabackbo-homicide-plex/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4f/Txphd_logo_2015.png" tvg-country="France" group-title="Docs & Replay",Travelxp
-https://travelxp-travelxp-4-fr.rakuten.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="Docs & Replay",Pêche à haut risque
-http://flussonic.linkintel.ru/che/index.m3u8
+#EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/99994448/600x200.png?type=white_cropped" tvg-country="France" group-title="Docs & Replay",Crime Scene
+https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99994448
+#EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=small-60&scale=2&url=https://provider-static.plex.tv/epg/cms/production/82ee42cc-ff1b-4faa-97df-d99ff9b9b7e2/INTOCRIMELRED_WHITE_TEXTRDX.png" tvg-country="France" group-title="Docs & Replay",Into Crime
+https://d1hyfk3twnpijh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-avx3hcmvfvp8q/index.m3u8
+#EXTINF:-1 tvg-id="" group-title="Docs & Replay"Faites entrer l'accusé
+https://jmp2.uk/plu-662a622b5e2370000800f392.m3u8
 #EXTINF:-1 group-title="Docs & Replay",Zone Interdite
 https://jmp2.uk/plu-66f55cf2483d460008f68746.m3u8
-
+#EXTINF:-1 group-title="Docs & Replay",Pêche à haut risque
+http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/553f926ce4b0a46bddb4baf6/1561374992682-AQP12A8997URCIOMDY5I/ARTE-seul-2.png" tvg-country="France" group-title="Docs & Replay",Arte
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/arte.m3u8
 #EXTINF:-1 group-title="Docs & Replay",Canal Savoir (360p)
 https://tvradiozap.eu/670
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/8/8b/La_maison_France_5_2010_logo.png" tvg-country="France" group-title="Docs & Replay",LMF5 La Maison France 5
-https://d6n7ne3hzi1p.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ijlr3nmzh7cue/LaMaisonFrance5_FR.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=small-60&scale=2&url=https://provider-static.plex.tv/epg/cms/production/82ee42cc-ff1b-4faa-97df-d99ff9b9b7e2/INTOCRIMELRED_WHITE_TEXTRDX.png" tvg-country="France" group-title="Docs & Replay",Into Crime
-https://d1hyfk3twnpijh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-avx3hcmvfvp8q/index.m3u8
-#EXTINF:-1 tvg-logo="https://tvradiozap.eu/tv/logos/missionintervention.jpg" tvg-country="France" group-title="Docs & Replay",Mission Intervention
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=15226
-#EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/eedf4ae4-7170-48f2-a686-98e80d0d463f-width308-quality100.jpeg" tvg-country="France" group-title="Docs & Replay",Echappées belles
-https://amg02232-botravail-amg02232c1-samsung-fr-308.playouts.now.amagi.tv/playlist/amg02232-botravail-echappeesbelles-samsungfr/playlist.m3u8
-#EXTINF:-1  tvg-logo="https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png" group-title="Docs & Replay",Adjugé vendu !
-https://jmp2.uk/plu-64bab8ba5dc1660008969b5a.m3u8
-#EXTINF:-1 tvg-id="" group-title="Docs & Replay",Echappées Belles & Co (720p)
-https://jmp2.uk/plu-63b578b524f0cf00072f2a52.m3u8
-#EXTINF:-1 tvg-id="" group-title="Docs & Replay"Faites entrer l'accusé
-https://jmp2.uk/plu-662a622b5e2370000800f392.m3u8
 #EXTINF:-1 group-title="Docs & Replay",Juste pour Rire GAGS (720p)
 https://jmp2.uk/plu-60afa1508284e60007163c08.m3u8
-
 #EXTINF:-1 tvg-logo="https://fr.webedia-group.com/wp-content/uploads/sites/6/2022/04/5396-epicurieux-orig-5.png" tvg-country="France" group-title="Docs & Replay",Epicurieux
 https://d1dzvywp5tcxbn.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ryq1as86j3gxc/epic.m3u8
 #EXTINF:-1 tvg-logo="https://teleculturelle.com/wp-content/uploads/2024/01/tcm_logo_transparent-300x99.png" tvg-country="Canada" group-title="Docs & Replay",TCM-TV   (CA)
