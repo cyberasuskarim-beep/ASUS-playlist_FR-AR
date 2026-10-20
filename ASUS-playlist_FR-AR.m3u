@@ -309,7 +309,7 @@ http://145.239.5.177/361/index.m3u8
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
 #EXTINF:-1 tvg-id="AB1.fr@SD" group-title="Cinéma & +",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
-#EXTINF:-1 tvg-id="M6.fr@HD" group-title="Cinéma & +",M6 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" id="M6.fr@HD" group-title="Cinéma & +",M6 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi (720p)
