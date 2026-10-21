@@ -159,9 +159,21 @@ http://193.254.245.162/NICKELODEON/index.m3u8
 ###################################################################################CINEMA ET PLUS##################################################################
 #EXTINF:-1 tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" tvg-country="France" group-title="Cinéma & +",TF1
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-country="France" group-
-title="Cinéma & +",M6
-https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" id="M6.fr@HD" group-title="Cinéma & +",M6 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://99.27.51.147:8080/M6/index.m3u8
+#EXTINF:-1 tvg-id="CStar.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo_CStar_2016.svg" group-title="Cinéma & +",C Star (477p)
+https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
+#EXTINF:-1 tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1086p)
+http://5.180.164.197:8080/W9/index.m3u8
+#EXTINF:-1 tvg-tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" id="T18.fr@HD" group-title="Cinéma & +",T18 (1080p)
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
+#EXTINF:-1 tvg-id="France3.fr@National" group-title="Cinéma & +",France 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://85.14.32.26:8800/udp/239.100.10.144:5000
+
+
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-country="France" group-title="Cinéma & +",W9
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/TMC_logo_2016.svg/330px-TMC_logo_2016.svg.png" tvg-country="France" group-title="Cinéma & +",TMC
@@ -262,8 +274,7 @@ https://40413a8d4fab4568b22187b5d7cd15c9.mediatailor.us-east-1.amazonaws.com/v1/
 https://amg01796-amg01796c14-samsung-fr-5846.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-topscifi-samsungfr/playlist.m3u8
 #EXTINF:-1 tvg-id="ParisPremiere.fr@SD" group-title="Cinéma & +",Paris Premiere (720p)
 http://193.254.245.162/PARIS-PREMIERE/index.m3u8
-#EXTINF:-1 tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1086p)
-http://5.180.164.197:8080/W9/index.m3u8
+
 #EXTINF:-1 tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1080p)
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (720p)
@@ -275,13 +286,10 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-shor
 http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Teva.fr@SD" group-title="Cinéma & +",Teva (1080p)
 http://145.239.5.177/356/index.m3u8
-#EXTINF:-1 tvg-id="T18.fr@HD" group-title="Cinéma & +",T18 (1080p)
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
+
 #EXTINF:-1 tvg-id="SerieClub.fr@SD" group-title="Cinéma & +",Serie Club (720p)
 http://145.239.5.177/355/index.m3u8
-#EXTINF:-1 tvg-id="France3.fr@National" group-title="Cinéma & +",France 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://85.14.32.26:8800/udp/239.100.10.144:5000
+
 #EXTINF:-1 tvg-id="France4.fr@SD" group-title="Cinéma & +",France 4
 http://176.65.146.100:8047/play/a074/index.m3u8
 #EXTINF:-1 tvg-id="France4.fr@HD" group-title="Cinéma & +",France 4 HD (1080p) [Geo-blocked]
@@ -303,15 +311,14 @@ http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport360.fr@SD" group-title="Cinéma & +",Canal+ Sport 360
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-#EXTINF:-1 tvg-id="CStar.fr@SD" group-title="Cinéma & +",C Star (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo_CStar_2016.svg" id="CStar.fr@SD" group-title="Cinéma & +",C Star (1080p)
 http://145.239.5.177/361/index.m3u8
-#EXTINF:-1 tvg-id="CStar.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo_CStar_2016.svg" group-title="Cinéma & +",C Star (477p)
-https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
+
 #EXTINF:-1 tvg-id="AB1.fr@SD" group-title="Cinéma & +",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" id="M6.fr@HD" group-title="Cinéma & +",M6 (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://99.27.51.147:8080/M6/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-country="France" group-
+title="Cinéma & +",M6
+https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
 #EXTINF:-1 tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi (720p)
 http://41.205.93.154/SYFY/index.m3u8
 #EXTINF:-1 tvg-id="Syfy.fr@SD" group-title="Cinéma & +",Syfy
