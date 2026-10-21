@@ -277,7 +277,7 @@ https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-shor
 http://145.239.5.177/331a/index.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (720p)
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8
-#EXTINF:-1 tvg-id="TF1.fr@HD" group-title="Cinéma & +",TF1 HD (720p)
+#EXTINF:-1 tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" tvg-id="TF1.fr@HD" group-title="Cinéma & +",TF1 HD (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://151.80.18.177:86/TF1_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/T%C3%A9va_logo_2021.svg" tvg-id="Teva.fr@SD" group-title="Cinéma & +",Teva (1080p)
@@ -314,9 +314,9 @@ http://145.239.5.177/332/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-country="France" group-
 title="Cinéma & +",M6
 https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
-#EXTINF:-1 tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi (720p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/Syfy_HD_Logo_2017.png" tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi (720p)
 http://41.205.93.154/SYFY/index.m3u8
-#EXTINF:-1 tvg-id="Syfy.fr@SD" group-title="Cinéma & +",Syfy
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Syfy_Universal_%28cropped%29.png" tvg-id="Syfy.fr@SD" group-title="Cinéma & +",Syfy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/SYFY/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brut_logo.svg/330px-Brut_logo.svg.png" tvg-country="France" group-title="Cinéma & +",Brut
