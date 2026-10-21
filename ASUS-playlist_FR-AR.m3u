@@ -162,7 +162,7 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" id="M6.fr@HD" group-title="Cinéma & +",M6 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/M6/index.m3u8
-#EXTINF:-1 tvg-id="CStar.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo_CStar_2016.svg" group-title="Cinéma & +",C Star (477p)
+#EXTINF:-1 tvg-id="CStar.fr@SD" tvg-logo="https://app.ladn-data.eu/storage/uploads/companies/a70beb63-7a59-40c0-b097-b6428b18cd36.jpg" group-title="Cinéma & +",C Star (477p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1086p)
 http://5.180.164.197:8080/W9/index.m3u8
@@ -309,7 +309,7 @@ http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport360.fr@SD" group-title="Cinéma & +",Canal+ Sport 360
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo_CStar_2016.svg" id="CStar.fr@SD" group-title="Cinéma & +",C Star (1080p)
+#EXTINF:-1 tvg-id="CStar.fr@SD" tvg-logo="https://app.ladn-data.eu/storage/uploads/companies/a70beb63-7a59-40c0-b097-b6428b18cd36.jpg" group-title="Cinéma & +",C Star (1080p)
 http://145.239.5.177/361/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/5/51/Logo_AB1_2021.svg" id="AB1.fr@SD" group-title="Cinéma & +",AB1 (720p)
