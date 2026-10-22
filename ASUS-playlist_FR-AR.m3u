@@ -165,7 +165,7 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1seriesfilms.m3u8
 http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-logo="https://app.ladn-data.eu/storage/uploads/companies/a70beb63-7a59-40c0-b097-b6428b18cd36.jpg" tvg-id="CStar.fr@SD" group-title="Cinéma & +",C Star (477p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1086p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-country="France" group-title="Cinéma & +",W9 (1086p)
 http://5.180.164.197:8080/W9/index.m3u8
 #EXTINF:-1 tvg-tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" tvg-id="T18.fr@HD" group-title="Cinéma & +",T18 (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
