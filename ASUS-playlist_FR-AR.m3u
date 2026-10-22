@@ -270,7 +270,7 @@ https://amg01796-amg01796c14-samsung-fr-5846.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_PARIS_PREMIERE.png" tgv-id="ParisPremiere.fr@SD" tvg-id="parispremiere.fr" group-title="Cinéma & +",Paris Premiere (720p)
 http://193.254.245.162/PARIS-PREMIERE/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="55820" group-title="Cinéma & +",W9 (1080p)
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (720p)
 http://145.239.5.177/331a/index.m3u8
