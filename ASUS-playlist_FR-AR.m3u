@@ -163,9 +163,9 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1seriesfilms.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-id="M6.fr@HD" group-title="Cinéma & +",M6 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/M6/index.m3u8
-#EXTINF:-1 tvg-logo="https://app.ladn-data.eu/storage/uploads/companies/a70beb63-7a59-40c0-b097-b6428b18cd36.jpg" tvg-id="CStar.fr@SD" group-title="Cinéma & +",C Star (477p)
+#EXTINF:-1 tvg-logo="https://app.ladn-data.eu/storage/uploads/companies/a70beb63-7a59-40c0-b097-b6428b18cd36.jpg" tvg-id="CStar.fr" group-title="Cinéma & +",C Star (477p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="CStar.fr" group-title="Cinéma & +",W9 (1086p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@HD" group-title="Cinéma & +",W9 (1086p)
 http://5.180.164.197:8080/W9/index.m3u8
 #EXTINF:-1 tvg-tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" tvg-id="T18.fr@SD" group-title="Cinéma & +",T18 (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
@@ -270,7 +270,7 @@ https://amg01796-amg01796c14-samsung-fr-5846.playouts.now.amagi.tv/playlist/amg0
 #EXTINF:-1 tvg-tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_PARIS_PREMIERE.png" tgv-id="ParisPremiere.fr@SD" tvg-id="parispremiere.fr" group-title="Cinéma & +",Paris Premiere (720p)
 http://193.254.245.162/PARIS-PREMIERE/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="55820" group-title="Cinéma & +",W9 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1080p)
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (720p)
 http://145.239.5.177/331a/index.m3u8
