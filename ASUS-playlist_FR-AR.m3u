@@ -514,18 +514,5 @@ https://d1tvu4639eiqii.cloudfront.net/playlist.m3u8
 https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://screenplus.fr/wp-content/uploads/2025/11/Les-chaines-FAST-de-Sony-debarquent-gratuitement-sur-Prime-Video-1536x864.png" id="SonyOneHitsComedie.fr@HD" group-title="Sony One TV",Sony One Hits Comedie (1080p)
 https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
-########################################################################################RADIO############################################################################################
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",06 - Bejaia
-https://radiobejaia.ice.infomaniak.ch/bejaia.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",15 - Tizi Ouzou
-https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",35 - Boumerdes
-https://radioboumerdes.ice.infomaniak.ch/boumerdes.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",16 - Alger
-https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",18 - Jijel
-https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",10 - Bouira
-https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
-#EXTINF:-1 tvg-logo="https://radioalgerie.dz/player/sites/default/files/logo90bleu_0.png" group-title="Radio",19 - Setif
-https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3
+###################################################################################################################################################################################
+
