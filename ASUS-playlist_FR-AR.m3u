@@ -180,8 +180,8 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tmc.m3u8
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tfx.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png" tvg-country="France" group-title="Cinéma & +",Novo19
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/novo19.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr" tvg-country="France" group-title="Cinéma & +",6TER
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-6ter/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr@SD" tvg-country="France" group-title="Cinéma & +",6TER
+http://149.62.177.107:9999/6ter/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Le_Figaro_TV_IDF_%282023%29.png/330px-Le_Figaro_TV_IDF_%282023%29.png" tvg-country="France" group-title="Cinéma & +",Le Figaro 
 TV
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/lefigarotv.m3u8
@@ -310,6 +310,8 @@ https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
 http://145.239.5.177/361/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/5/51/Logo_AB1_2021.svg" tvg-id="AB1.fr@SD" group-title="Cinéma & +",AB1 (720p)
 http://145.239.5.177/332/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr" tvg-country="France" group-title="Cinéma & +",6TER
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-6ter/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-id="M6.fr" tvg-country="France" group-
 title="Cinéma & +",M6
 https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
