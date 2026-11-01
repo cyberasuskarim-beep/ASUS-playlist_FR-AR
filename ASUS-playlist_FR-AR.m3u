@@ -180,7 +180,7 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tmc.m3u8
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tfx.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png" tvg-country="France" group-title="Cinéma & +",Novo19
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/novo19.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr@SD" tvg-country="France" group-title="Cinéma & +",6TER
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr@SD" tvg-country="France" group-title="Cinéma & +",6ter
 http://149.62.177.107:9999/6ter/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Le_Figaro_TV_IDF_%282023%29.png/330px-Le_Figaro_TV_IDF_%282023%29.png" tvg-country="France" group-title="Cinéma & +",Le Figaro 
 TV
