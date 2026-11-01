@@ -172,8 +172,6 @@ https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/langfr-1920px-France_3_2018.svg.png" tvg-id="France3.fr" group-title="Cinéma & +",France 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://85.14.32.26:8800/udp/239.100.10.144:5000
-
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/TMC_logo_2016.svg/330px-TMC_logo_2016.svg.png" tvg-id="TMC.fr" tvg-country="France" group-title="Cinéma & +",TMC
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tmc.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TFX_logo.svg/330px-TFX_logo.svg.png" tvg-id="TFX.fr" tvg-country="France" group-title="Cinéma & +",TFX
@@ -269,7 +267,6 @@ https://40413a8d4fab4568b22187b5d7cd15c9.mediatailor.us-east-1.amazonaws.com/v1/
 https://amg01796-amg01796c14-samsung-fr-5846.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-topscifi-samsungfr/playlist.m3u8
 #EXTINF:-1 tvg-tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_PARIS_PREMIERE.png" tgv-id="ParisPremiere.fr@SD" tvg-id="parispremiere.fr" group-title="Cinéma & +",Paris Premiere (720p)
 http://193.254.245.162/PARIS-PREMIERE/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (1080p)
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/W9-Logo.svg/330px-W9-Logo.svg.png" tvg-id="W9.fr@SD" group-title="Cinéma & +",W9 (720p)
