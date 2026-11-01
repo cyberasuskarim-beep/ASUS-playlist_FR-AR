@@ -33,9 +33,9 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=16223
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10243
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5979
-#EXTINF:-1 tvg-logo="https://www.bordeaux-neurocampus.fr/wp-content/uploads/2019/03/logo-sciences-et-vie.jpg" tvg-country="France" group-title="Docs & Replay",Science & Vie 1
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Science_et_Vie.jpg/330px-Science_et_Vie.jpg" tvg-country="France" group-title="Docs & Replay",Science & Vie 1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=14172
-#EXTINF:-1 tvg-logo="https://www.bordeaux-neurocampus.fr/wp-content/uploads/2019/03/logo-sciences-et-vie.jpg" tvg-country="France" group-title="Docs & Replay",Science & Vie 2
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Science_et_Vie.jpg/330px-Science_et_Vie.jpg" tvg-country="France" group-title="Docs & Replay",Science & Vie 2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10058
 #EXTINF:-1 tvg-logo="https://princealbert1.mc/var/cap/storage/images/_aliases/w2160/7/7/4/0/50477-1-fre-FR/1e396f6f66bb-th-1-.jpg2.jpg" tvg-country="France" group-title="Docs & Replay",Arte Invitation au Voyage
 https://d3223vg0o80ccf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xn2vfltkhli08/Invitationauvoyage_FR.m3u8
