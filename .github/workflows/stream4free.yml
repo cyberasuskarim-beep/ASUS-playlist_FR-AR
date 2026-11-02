@@ -23,15 +23,17 @@ jobs:
       - name: Exécuter le script de mise à jour
         run: python update_stream4free.py
 
-      - name: Commit et Push de stream4free.m3u
+      - name: Forcer le Commit et le Push de stream4free.m3u
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Vérifie si le fichier existe avant de l'ajouter
-          if [ -f "stream4free.m3u" ]; then
-            git add stream4free.m3u
-            git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update stream4free.m3u isolated file" && git push)
-          else
-            echo "Le fichier stream4free.m3u n'a pas été généré, saut du commit."
-          fi
+          # S'assure que le fichier est pris en compte par git
+          git add stream4free.m3u
+          
+          # Vérifie s'il y a des changements à commiter
+          git status
+          
+          # Commit et envoi forcé sur le dépôt
+          git commit -m "Mise à jour automatique de stream4free.m3u" || echo "Pas de changement à commiter"
+          git push
