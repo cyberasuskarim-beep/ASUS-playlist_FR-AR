@@ -1,0 +1,31 @@
+name: Update Isolated Stream4Free
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # S'exécute automatiquement toutes les 5 minutes
+  workflow_dispatch: # Permet de lancer la mise à jour manuellement à tout moment
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Installer les dépendances
+        run: pip install requests
+
+      - name: Exécuter le script de mise à jour
+        run: python update_stream4free.py
+
+      - name: Commit et Push du fichier stream4free.m3u
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stream4free.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update stream4free.m3u channel" && git push)
