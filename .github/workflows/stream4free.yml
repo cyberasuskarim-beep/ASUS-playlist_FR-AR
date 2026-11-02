@@ -1,9 +1,9 @@
-name: Update Stream4Free in Main List
+name: Update Isolated Stream4Free File
 
 on:
   schedule:
     - cron: '*/5 * * * *' # S'exécute automatiquement toutes les 5 minutes
-  workflow_dispatch: # Permet de lancer manuellement
+  workflow_dispatch: # Permet de le lancer manuellement à tout moment
 
 jobs:
   update:
@@ -23,9 +23,9 @@ jobs:
       - name: Exécuter le script de mise à jour
         run: python update_stream4free.py
 
-      - name: Commit et Push de ASUS-playlist_FR-AR.m3u
+      - name: Commit et Push de stream4free.m3u
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add ASUS-playlist_FR-AR.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update National Geographic in main playlist" && git push)
+          git add stream4free.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update stream4free.m3u isolated file" && git push)
