@@ -2,8 +2,8 @@ name: Update Isolated Stream4Free File
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # S'exécute automatiquement toutes les 5 minutes
-  workflow_dispatch: # Permet de le lancer manuellement à tout moment
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   update:
@@ -27,5 +27,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add stream4free.m3u
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update stream4free.m3u isolated file" && git push)
+          
+          # Vérifie si le fichier existe avant de l'ajouter
+          if [ -f "stream4free.m3u" ]; then
+            git add stream4free.m3u
+            git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update stream4free.m3u isolated file" && git push)
+          else
+            echo "Le fichier stream4free.m3u n'a pas été généré, saut du commit."
+          fi
