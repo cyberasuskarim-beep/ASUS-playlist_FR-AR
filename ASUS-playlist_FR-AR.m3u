@@ -23,6 +23,9 @@ https://dltlq2xit8olv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8
 #EXTINF:-1 tvg-logo="https://tvradiozap.eu/tv/logos/missionintervention.jpg" tvg-country="France" group-title="Docs & Replay",Mission Intervention
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15226
+#EXTINF:-1 tvg-logo="https://tvpdotcomdynamiclogopeu.samsungcloud.tv/resize?url=https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC3900003ZH_20260616T034218SQUARE.png&h=250" tvg-country="France" group-title="Docs & Replay",Bons plans & Arnaques
+https://d1mdvi698umja9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kuib43fy5umqi-ssai-prd/mgg.m3u8
+
 #EXTINF:-1  tvg-logo="https://images.pluto.tv/channels/67b4b4a21a5ca760802d25fd/colorLogoPNG_1747394750060.png" group-title="Docs & Replay",Adjugé vendu !
 https://jmp2.uk/plu-64bab8ba5dc1660008969b5a.m3u8
 #EXTINF:-1 tvg-logo="https://worldscreen.com/wp-content/uploads/2024/10/TV5MondeVoyage-Logo-1024.jpg" tvg-country="France" group-title="Docs & Replay",TV5Monde+ Voyage
