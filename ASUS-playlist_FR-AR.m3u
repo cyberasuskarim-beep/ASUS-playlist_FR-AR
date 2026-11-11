@@ -3,15 +3,12 @@
 https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900002FW_20260310T031715SQUARE.png" tvg-country="France" group-title="Docs & Replay",Au coeur du danger
 https://d2n1sxwoprdpda.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mu1qde0x8hs1m/AuCoeurDuDanger_FR.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/a/ab/Logo_Discovery-Channel.png" tvg-id="DiscoveryChannel.fr@SD" group-title="Docs & Replay",Discovery Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/68/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Logo_id.png" tvg-id="InvestigationDiscovery.fr@SD" group-title="Docs & Replay",Investigation Discovery
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/81/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle1920RMCWowmin.jpg" tvg-country="France" group-title="Docs & Replay",RMC Wow
 https://d225rs9gbjxb5j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bdlabwqcrqc2n/RMC_Wow_FR.m3u8
 #EXTINF:-1 tvg-logo="https://static-cdn.tv.sfr.net/data/img/apps/edito/attachment/animation/tile/imgrectangle1920RMCMecanicmin.jpg" tvg-country="France" group-title="Docs & Replay",RMC Mecanic
@@ -56,6 +53,9 @@ https://amg01821-lovetvchannels-lovetheplanetfrsamsung-samsungfr-hfam1.amagi.tv/
 https://d2cl8wi5f8zf1j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0ay35jkybhd8m/DestinationNature_FR.m3u8
 #EXTINF:-1 tvg-logo="https://images.samsung.com/is/image/samsung/assets/be_fr/smart-tv/samsung-tv-plus/all-channels/NatureTime_circle_1000x1000.png?$330_186_PNG$" tvg-country="France" group-title="Docs & Replay",Nature time
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantmedia-naturetime-samsungfr/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3200001NQ_20241015T040214SQUARE.png" tvg-country="Royaume-Uni" group-title="Docs & Replay",BBC Earth (GB)
+https://amg00793-amg00793c22-samsung-fr-4776.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthfrance-samsungfr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/60925a44f0350600075a1fdc/colorLogoPNG.png" group-title="Docs & Replay",Pluto TV Animaux
 https://jmp2.uk/plu-60925a44f0350600075a1fdc.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/611e7811eb9daf000764cbfd/colorLogoPNG.png" group-title="Docs & Replay",Pluto TV Aventure
@@ -191,15 +191,12 @@ https://tvradiozap.eu/tools/m3u-m3u8.php/para/tfx.m3u8
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/novo19.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr@SD" tvg-country="France" group-title="Cinéma & +",6ter
 http://149.62.177.107:9999/6ter/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Logo_of_13e_Rue.png/960px-Logo_of_13e_Rue.png" tvg-id="13emeRue.fr@SD" group-title="Cinéma & +",13eme Rue
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/251/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.logos-download.com/114580/33731-s1280-dc5e24000a10ff9e1f66463e6b20e001.png/SciFi_Logo_2026-s1280.png" tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/250/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Le_Figaro_TV_IDF_%282023%29.png/330px-Le_Figaro_TV_IDF_%282023%29.png" tvg-country="France" group-title="Cinéma & +",Le Figaro 
 TV
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/lefigarotv.m3u8
