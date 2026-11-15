@@ -210,7 +210,7 @@ http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TFX_logo.svg/330px-TFX_logo.svg.png" tvg-id="TFX.fr" tvg-country="France" group-title="Cinéma & +",TFX
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tfx.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TFX_logo.svg/330px-TFX_logo.svg.png" tvg-id="TFX.fr@SD" group-title="Cinéma & +,TFX (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TFX_logo.svg/330px-TFX_logo.svg.png" tvg-id="TFX.fr@SD" group-title="Cinéma & +",TFX (1080p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tfx/live.livx/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_NOVO19_-_2025.svg/330px-Logo_NOVO19_-_2025.svg.png" tvg-id="NOVO19.fr@HD" group-title="Cinéma & +",NOVO19 (720p)
