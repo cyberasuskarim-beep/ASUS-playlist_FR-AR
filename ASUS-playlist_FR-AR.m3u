@@ -45,7 +45,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=5979
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=14172
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Science_et_Vie.jpg/330px-Science_et_Vie.jpg" tvg-country="France" group-title="Docs & Replay",Science & Vie 2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10058
-#EXTINF:-1 tvg-logo="https://princealbert1.mc/var/cap/storage/images/_aliases/w2160/7/7/4/0/50477-1-fre-FR/1e396f6f66bb-th-1-.jpg2.jpg" tvg-country="France" group-title="Docs & Replay",Arte Invitation au Voyage
+#EXTINF:-1 tvg-logo="https://carolinepochon.com/wp-content/uploads/2021/01/53415038_2053883741393312_4356529020758654976_o.png" tvg-country="France" group-title="Docs & Replay",Arte Invitation au Voyage
 https://d3223vg0o80ccf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xn2vfltkhli08/Invitationauvoyage_FR.m3u8
 #EXTINF:-1 tvg-logo="https://lookaa.net/live/tv/capterre.jpeg" tvg-country="France" group-title="Docs & Replay",Cap Terre
 https://amg01821-lovetvchannels-lovetheplanetfrsamsung-samsungfr-hfam1.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetfrsamsung-samsungfr/playlist.m3u8
@@ -171,14 +171,13 @@ https://tvradiozap.eu/tools/cof-m3u8.php/yt/UCjSg0PDVShgNIfEC8FEdXzA.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68b16d2282862c1f067dc763/thumbnail_1760383271593.jpg" tvg-country="France" group-title="Jeunesse",Les Schtroumpfs
 https://jmp2.uk/plu-68b16d2282862c1f067dc763.m3u8
 ###################################################################################CINEMA ET PLUS##################################################################
-#EXTINF:-1 tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" tvg-id="TF1.fr" tvg-country="France" group-title="Cinéma & +",TF1
-https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1.m3u8
+#EXTINF:-1 tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" tvg-country="France" group-title="Cinéma & +",TF1
+https://tvradiozap.eu/tools/cof-m3u8.php/tf/TF1.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/TF1_S%C3%A9ries_Films_logo_2020.svg/330px-TF1_S%C3%A9ries_Films_logo_2020.svg.png" tvg-id="TF1SeriesFilms.fr" tvg-country="France" group-title="Cinéma & +",TF1 Séries Films
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/tf1seriesfilms.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/TF1_S%C3%A9ries_Films_logo_2020.svg/330px-TF1_S%C3%A9ries_Films_logo_2020.svg.png" tvg-id="TF1SeriesFilms.fr@SD" group-title="Cinéma & +",TF1 Series Films (1080p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1_series_films/live.livx/playlist.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-id="M6.fr" group-title="Cinéma & +",M6 (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
@@ -193,16 +192,16 @@ https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_cenc00/dash-
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png" tvg-id="T18.fr@HD" group-title="Cinéma & +",T18 (1080p)
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
-#EXTINF:-1 tvg-id="France2.fr@SD" group-title="Cinéma & +",France 2 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/330px-France_2_2018.svg.png" tvg-id="France2.fr@SD" group-title="Cinéma & +",France 2 (1080p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_2/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/langfr-1920px-France_3_2018.svg.png" tvg-id="France3.fr" group-title="Cinéma & +",France 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://85.14.32.26:8800/udp/239.100.10.144:5000
-#EXTINF:-1 tvg-id="France3.fr@National" group-title="Cinéma & +",France 3 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/France_3_2018.svg/langfr-1920px-France_3_2018.svg.png" tvg-id="France3.fr@National" group-title="Cinéma & +",France 3 (1080p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="France4.fr@SD" group-title="Cinéma & +",France 4 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/330px-France_4_2018.svg.png" tvg-id="France4.fr@SD" group-title="Cinéma & +",France 4 (1080p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="France5.fr@SD" group-title="Cinéma & +",France 5 (1080p)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/langfr-1920px-France_5_2018.svg.png" tvg-id="France5.fr@SD" group-title="Cinéma & +",France 5 (1080p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_5/live.livx/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a8/TMC_logo_2016.svg/330px-TMC_logo_2016.svg.png" tvg-id="TMC.fr" tvg-country="France" group-title="Cinéma & +",TMC
