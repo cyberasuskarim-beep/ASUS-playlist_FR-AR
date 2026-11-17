@@ -606,4 +606,32 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/toute_lhistoire/live.livx/playl
 #EXTINF:-1 tvg-id="CStar.fr@SD" group-title="AB-CSAT+",C Star (720p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cstar/live.livx/playlist.m3u8
 
+#EXTINF:-1 tvg-id="arte.fr@SD" group-title="AB-CSAT+",arte (1080p)
+http://5.180.164.197:8080/ARTEFR/index.m3u8
+
+#EXTINF:-1 tvg-id="arte.fr@SD" group-title="AB-CSAT+",Arte (720p) [Geo-blocked]
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+
+#EXTINF:-1 tvg-id="M6.fr@HD" group-title="AB-CSAT+",M6 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://99.27.51.147:8080/M6/index.m3u8
+
+#EXTINF:-1 tvg-id="RMCDecouverte.fr@SD" group-title="AB-CSAT+",RMC Decouverte (1080p)
+https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8
+
+#EXTINF:-1 tvg-id="RMCLife.fr@SD" group-title="AB-CSAT+",RMC Life (1080p)
+https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8
+
+#EXTINF:-1 tvg-id="RMCStory.fr@SD" group-title="AB-CSAT+",RMC Story (1080p)
+https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
+
+#EXTINF:-1 tvg-id="T18.fr@HD" group-title="AB-CSAT+",T18 (1080p)
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
+
+#EXTINF:-1 tvg-id="TMC.fr@HD" group-title="AB-CSAT+",TMC HD (1080p) [Geo-blocked]
+http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
+
+#EXTINF:-1 tvg-id="W9.fr@SD" group-title="AB-CSAT+",W9 (720p)
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8
+
 
