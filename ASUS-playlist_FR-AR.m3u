@@ -548,5 +548,62 @@ https://d1tvu4639eiqii.cloudfront.net/playlist.m3u8
 https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://screenplus.fr/wp-content/uploads/2025/11/Les-chaines-FAST-de-Sony-debarquent-gratuitement-sur-Prime-Video-1536x864.png" id="SonyOneHitsComedie.fr@HD" group-title="Sony One TV",Sony One Hits Comedie (1080p)
 https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
-###################################################################################################################################################################################
+####################################################################################AB-CSAT+########################################################################
+#EXTINF:-1 tvg-id="TF1.fr@SD" group-title="AB-CSAT+",TF1
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ParisPremiere.fr@SD" group-title="AB-CSAT+",Paris Premiere (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/paris_premiere/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AB1.fr@SD" group-title="AB-CSAT+",AB1 (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/ab1/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TMC.fr@SD" group-title="AB-CSAT+",TMC (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tmc_fr/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="W9.fr@SD" group-title="AB-CSAT+",W9 (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/w9_fr/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Action.fr@SD" group-title="AB-CSAT+",Action (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/action/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Teva.fr@SD" group-title="AB-CSAT+",Teva (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/teva/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SerieClub.fr@SD" group-title="AB-CSAT+",Serie Club (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/serie_club/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MyZenTV.fr@SD" group-title="AB-CSAT+",MyZen TV (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Animaux.fr@SD" group-title="AB-CSAT+",Animaux (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/animaux/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mangas.fr@SD" group-title="AB-CSAT+",Mangas (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mangas/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ChassePeche.fr@SD" group-title="AB-CSAT+",Chasse & Peche (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/chasse_et_peche/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UshuaiaTV.fr@SD" group-title="AB-CSAT+",Ushuaia TV (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/ushuaia/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVBreizh.fr@SD" group-title="AB-CSAT+",TV Breizh (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tv_breizh/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CrimeDistrict.fr@SD" group-title="AB-CSAT+",Crime District (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/crime_district/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ScienceVieTV.fr@SD" group-title="AB-CSAT+",Science & Vie TV (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/science_et_vie/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="HistoireTV.fr@SD" group-title="AB-CSAT+",Histoire TV (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/histoire/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ToutelHistoire.fr@SD" group-title="AB-CSAT+",Toute l'Histoire (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/toute_lhistoire/live.livx/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CStar.fr@SD" group-title="AB-CSAT+",C Star (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/cstar/live.livx/playlist.m3u8
+
 
