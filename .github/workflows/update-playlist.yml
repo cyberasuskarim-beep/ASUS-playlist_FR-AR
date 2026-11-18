@@ -29,10 +29,13 @@ jobs:
       - name: Exécuter IPTV-org
         run: python update_iptvorg.py
 
+      - name: Mettre à jour le README
+        run: python update_readme.py
+
       - name: Sauvegarder et publier les modifications
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.m3u
-          git diff --cached --quiet || git commit -m "Mise à jour automatique des listes IPTV"
+          git add *.m3u README.md
+          git diff --cached --quiet || git commit -m "Mise à jour automatique des listes IPTV et du README"
           git push
