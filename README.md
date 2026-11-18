@@ -2,15 +2,13 @@
 
 Dépôt personnel de playlists IPTV maintenu et actualisé automatiquement.
 
-🕒 **Dernière vérification automatique :** `18/11/2026 à 16:58 (UTC+1)`
+🕒 **Dernière vérification automatique :** `18/11/2026 à 18:00 (UTC+1)`
 
 ## 📋 État des listes
 
-| Playlist | Fichier | Chaînes actives | Accès |
-| :--- | :--- | :---: | :--- |
-| Playlist Principale (FR / AR) | `ASUS-playlist_FR-AR.m3u` | **270** | [🔗 Lien direct](https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main/ASUS-playlist_FR-AR.m3u) |
-| Source IPTV-org | `iptv-org.m3u` | **11181** | [🔗 Lien direct](https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main/iptv-org.m3u) |
-| Source TVRadioZap | `tvradiozap.m3u` | **462** | [🔗 Lien direct](https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main/tvradiozap.m3u) |
+| Playlist | Fichier | Chaînes actives |
+| :--- | :--- | :---: |
+| Playlist Principale (FR / AR) | `ASUS-playlist_FR-AR.m3u` | **270** |
 
 ## 🔄 Dernières chaînes actualisées
 
