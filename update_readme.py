@@ -2,7 +2,7 @@ import os
 import subprocess
 from datetime import datetime, timezone, timedelta
 
-# On ne garde que la playlist principale dans le tableau
+# SEULE la playlist principale est présente ici pour masquer les sources dans le tableau
 PLAYLISTS = [
     ("Playlist Principale (FR / AR)", "ASUS-playlist_FR-AR.m3u")
 ]
@@ -61,7 +61,7 @@ def generate_readme():
         "",
         "## 📋 État des listes",
         "",
-        # Tableau épuré sans la colonne Accès
+        # Tableau épuré : sans la colonne Accès et sans les lignes sources
         "| Playlist | Fichier | Chaînes actives |",
         "| :--- | :--- | :---: |"
     ]
