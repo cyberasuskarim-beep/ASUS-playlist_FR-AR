@@ -2,14 +2,12 @@ import os
 import subprocess
 from datetime import datetime, timezone, timedelta
 
+# On ne garde que la playlist principale dans le tableau
 PLAYLISTS = [
-    ("Playlist Principale (FR / AR)", "ASUS-playlist_FR-AR.m3u"),
-    ("Source IPTV-org", "iptv-org.m3u"),
-    ("Source TVRadioZap", "tvradiozap.m3u")
+    ("Playlist Principale (FR / AR)", "ASUS-playlist_FR-AR.m3u")
 ]
 
 README_FILE = "README.md"
-REPO_RAW_BASE = "https://raw.githubusercontent.com/cyberasuskarim-beep/ASUS-playlist_FR-AR/refs/heads/main"
 
 def count_channels(filepath):
     """Compte le nombre de balises #EXTINF dans un fichier M3U."""
@@ -25,7 +23,6 @@ def count_channels(filepath):
 def get_recent_changes():
     """Extrait les noms des chaînes modifiées via git diff si disponible."""
     try:
-        # Exécute git diff sur les fichiers .m3u pour trouver les lignes #EXTINF modifiées
         result = subprocess.run(
             ["git", "diff", "-U1", "*.m3u"],
             capture_output=True,
@@ -37,23 +34,22 @@ def get_recent_changes():
         
         changed_channels = []
         lines = result.stdout.splitlines()
-        for i, line in enumerate(lines):
-            # Repère une ligne #EXTINF modifiée ou proche d'un lien modifié
+        for line in lines:
             if line.startswith("-#EXTINF:") or line.startswith("+#EXTINF:"):
                 parts = line.split(",")
                 if len(parts) > 1:
                     channel_name = parts[-1].strip()
                     if channel_name not in changed_channels:
                         changed_channels.append(channel_name)
-        return changed_channels[:15] # Limite aux 15 dernières pour ne pas surcharger le README
+        return changed_channels[:15]
     except Exception:
         return []
 
 def generate_readme():
+    # Heure locale d'Algérie (UTC+1)
     tz_dz = timezone(timedelta(hours=1))
     now = datetime.now(tz_dz).strftime("%d/%m/%Y à %H:%M")
 
-    # Récupère les chaînes modifiées lors de cette session
     changes = get_recent_changes()
 
     lines = [
@@ -65,17 +61,17 @@ def generate_readme():
         "",
         "## 📋 État des listes",
         "",
-        "| Playlist | Fichier | Chaînes actives | Accès |",
-        "| :--- | :--- | :---: | :--- |"
+        # Tableau épuré sans la colonne Accès
+        "| Playlist | Fichier | Chaînes actives |",
+        "| :--- | :--- | :---: |"
     ]
 
     for label, filename in PLAYLISTS:
         count = count_channels(filename)
         if count is not None:
-            raw_url = f"{REPO_RAW_BASE}/{filename}"
-            lines.append(f"| {label} | `{filename}` | **{count}** | [🔗 Lien direct]({raw_url}) |")
+            lines.append(f"| {label} | `{filename}` | **{count}** |")
 
-    # Ajout de l'encadré des modifications s'il y en a
+    # Encadré des modifications récentes
     lines.extend([
         "",
         "## 🔄 Dernières chaînes actualisées",
@@ -101,7 +97,7 @@ def generate_readme():
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
-    print(f"Succès : {README_FILE} mis à jour avec la liste des modifications le {now}.")
+    print(f"Succès : {README_FILE} mis à jour avec le design épuré le {now}.")
 
 if __name__ == "__main__":
     generate_readme()
