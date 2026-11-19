@@ -575,6 +575,11 @@ https://tvradiozap.eu/671
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://tvradiozap.eu/899
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Cx530NgC/Gemini-Generated-Image-gvhaevgvhaevgvha.jpg" tvg-id="AfricanewsFrench.fr@SD" group-title="News",Africanews French (720p)
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/xdq7WrhD/africa-24.jpg" tvg-id="Africa24.fr@SD" group-title="News",Africa 24 (1080p)
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+
 
 
 
