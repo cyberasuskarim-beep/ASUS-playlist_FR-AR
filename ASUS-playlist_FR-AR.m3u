@@ -118,8 +118,6 @@ http://flussonic.linkintel.ru/che/index.m3u8
 https://tvradiozap.eu/tools/m3u-m3u8.php/para/arte.m3u8
 #EXTINF:-1 tvg-logo="https://fr.webedia-group.com/wp-content/uploads/sites/6/2022/04/5396-epicurieux-orig-5.png" tvg-country="France" group-title="Docs & Replay",Epicurieux
 https://d1dzvywp5tcxbn.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ryq1as86j3gxc/epic.m3u8
-#EXTINF:-1 tvg-logo="https://teleculturelle.com/wp-content/uploads/2024/01/tcm_logo_transparent-300x99.png" tvg-country="Canada" group-title="Docs & Replay",TCM-TV   (CA)
-https://teleculturelle.vedge.infomaniak.com/livecast/teleculturelle/master.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@SD" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/494bf8eb-ab6c-40ba-884a-3625c9181e1d-width200-quality90.jpeg" group-title="Docs & Replay",Mr Bean Live Action (1080p)
 https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/494bf8eb-ab6c-40ba-884a-3625c9181e1d-width200-quality90.jpeg" tvg-country="France" group-title="Docs & Replay",Mr. Bean
