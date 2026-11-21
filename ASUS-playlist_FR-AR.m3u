@@ -209,6 +209,13 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/6ter_fr/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Logo_of_13e_Rue.png/960px-Logo_of_13e_Rue.png" tvg-id="13emeRue.fr@SD" group-title="Cinéma & +",13eme Rue
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/251/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gJsHDJzZ/RTL-9.jpg" tvg-id="RTL9.lu@SD" group-title="Cinéma & +",RTL9 (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rtl_9/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zBQV8Zpw/RTS-1.jpg" tvg-id="RTS1.ch@SD" group-title="Cinéma & +",RTS 1 (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rts_un/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJBpzsw-K/TIPIK.png" tvg-id="Tipik.be@SD" group-title="Cinéma & +",Tipik (1080p)
+http://41.205.93.154/TIPIK/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.logos-download.com/114580/33731-s1280-dc5e24000a10ff9e1f66463e6b20e001.png/SciFi_Logo_2026-s1280.png" tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/250/index.m3u8
@@ -341,6 +348,14 @@ http://99.27.51.147:8080/SYFY/index.m3u8
 https://live-cdn-brut-lg-fr-euw1.cmamedia.bct.nextradiotv.com/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/52/Noovo_logo.png" tvg-country="Canada" group-title="Cinéma & +",Noovo Comédies  (CA)
 https://d2s8iafdyzconc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6x2p3ho0vw00a/Noovo_Comedies_Home.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/CLBbZJqm/ALPHA-JURA.jpg" tvg-id="CanalAlphaJura.ch@SD" group-title="Cinéma & +",Canal Alpha Jura (1080p)
+https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/43b6fdh5/LA-UNE.png" tvg-id="LaUne.be@SD" group-title="Cinéma & +",La Une (1080p)
+http://41.205.93.154/LA-UNE/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/P5bpZ7rX/RTL-TVI.png" tvg-id="RTLTVI.be@SD" group-title="Cinéma & +",RTL-TVI (1080p) [Not 24/7]
+https://tvi-live-hls.akamaized.net/hls/live/2038650/TVI-Live-HLS/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/2SxdmyW4/RTL-GOLD.jpg" tvg-id="RTLGold.lu@SD" group-title="Cinéma & +",RTL Gold (1080p)
+https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
 ###################################################################################PLUTO TV#############################################################################################
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/GhwyNSZX/PLUTO-TV.jpg" id="Cine666byPlutoTV.de@FR" group-title="Pluto TV",Ciné 666 by Pluto TV
 https://jmp2.uk/plu-6823648580b2665220d9e69a.m3u8
