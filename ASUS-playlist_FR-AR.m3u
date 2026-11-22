@@ -38,6 +38,16 @@ https://jmp2.uk/plu-64bab8ba5dc1660008969b5a.m3u8
 https://d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8q6p9i1t9dw2k/tvfvo.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1300003HM_20250811T172926SQUARE.png" tvg-country="France" group-title="Docs & Replay",TV5Monde+ Chefs
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=16223
+
+#EXTINF:-1 channel-id="FRBD11000038N" tvg-id="FRBD11000038N" tvg-chno="4419" tvg-name="L'effet papillon" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD11000038N_20250211T013831SQUARE.png" group-title="Docs & Replay",L'effet papillon
+https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Famg02162-newenconnect-amg02162c1-samsung-fr-579.playouts.now.amagi.tv%2Fts-us-w2-n2%2Fplaylist%2Famg02162-newenconnect-leffetpapillon-samsungfr%2Fcb493e4f7b746f8792993f6cd3f740a0d10c63815412994830e00dcb2990005c9bbce1db8a12b13c03d85cce1f6e7d505d79cb12ce1b5899d87ea3417c7a136d8ae9f23b85cc755ce0a3566e35b679194ffd0805c85e2b46f4c556488934be7c4534ed0a65597bcd9e01ef290f909f0b8e7d378bb3dd7f396d390ec90c1fbcbf5ba0f8ff5e43c819f5e60349902d5be79c42d7d40eaf89dc5c9846d722f109c894f7d8ce1183d0907ef854e66d4408742dcc852b96ca58ef8dca3347f61c29420d1bf2a0aced5a2e8f49442e9595a0a451dc2cfdbd17a84e10a65ad825ea318e78e408b7f171a4a2b6de4b4f4bcaae377a0690d59faed418129448e6f895b71f7d9de55a7957d952d623263de291a17e9fe225a6890da4994c0062b0fb2c9a99a1cdecbf9d5a9d57a9ad95c86731240405069513a69369a941b71eb3fe200878501ed5f032c582ca10346c5bf4ed34bf082f98e9aca6eb210bfe7d29658218b1daaef1ae4e0e49d66f94af32659d230ec50629fa4c30933084d24edb86ab2882a6d7a4aa6cf07dfbbd4af3fb07bb643f5878d3b84c0d002479a16da3f694394367c4aa52d2f4ccfbf8cf6db4af7235022b1e510dc4c1ef79988fc72627b1a0393b4d7b0a1e9a08d7268a4e194066fe17dda8066396460f19a6f66f130a37d6ffb88fd1829104ad298786bd183f2b55668a36070d67c7f9d80aaa7618283a15ab27506e914b1a4ee39ecca5be856dc5932dea1b6a066cc8f558105c003d3344cbde38976de3951cab9285099fb8c34113c519a7065fcf858e22a8a3d1891f7de5c03d2e6e99d728d2606d9647a64ca6e63089e01b5666732a21ef8757ed50aad09cd359f301a44c1171f977bd8899ddf36251e2d1077304005b137045656e6b9cdfc66f1474fcb644b70fb10b3466cbbf8b59bf43bf2474795e39a47fe9201b0b8c36%2F127%2F1920x1080_5129264%2Findex.m3u8
+
+#EXTINF:-1 channel-id="FR3900003Y7" tvg-id="FR3900003Y7" tvg-chno="4364" tvg-name="La Vie" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900003Y7_20260818T050826SQUARE.png" group-title="Docs & Replay",La Vie
+https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Fpb-y25sd4ynarggo.akamaized.net%2Fv1%2Fmanifest%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fpb-y25sd4ynarggo%2F0882d351-2705-4cba-a2ef-2470b902f700%2F3.m3u8
+
+#EXTINF:-1 channel-id="FR1400005J7" tvg-id="FR1400005J7" tvg-chno="4422" tvg-name="Adrenaline Spica Life" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400005J7_20260929T041423SQUARE.png" group-title="Docs & Replay",Adrenaline Spica Life
+https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Fdxdyixudbt2pq.cloudfront.net%2Fv1%2Fmanifest%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fpb-nwh187tu9f83i%2Fbf890dcb-ff2f-4bb9-a377-e852a7517511%2F0.m3u8
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10243
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 2
@@ -508,6 +518,10 @@ http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 https://sr-m6web.live.6cloud.fr/out/v1/6play/6play-gulli/cmaf_q2hyb21h/hls-short-sd.m3u8
 #EXTINF:-1 tvg-id="Boomerang.fr@HD" group-title="Jeunesse",Boomerang HD (720p)
 http://41.205.93.154/BOOMERANG/index.m3u8
+
+#EXTINF:-1 channel-id="FR2200004HP" tvg-id="FR2200004HP" tvg-chno="4806" tvg-name="Masha et Michka" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR2200004HP_20260721T035836SQUARE.png" group-title="Jeunesse",Masha et Michka
+https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Fd3dvmt4bbo7u1a.cloudfront.net%2Fv1%2Fmanifest%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fpb-725m26ad72mjm%2F4c49cb03-39ae-4d03-a768-9a37666184ba%2F3.m3u8
+
 #EXTINF:-1 tvg-id="Nickelodeon.fr@SD" group-title="Jeunesse",Nickelodeon (720p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="NickelodeonJunior.fr@SD" group-title="Jeunesse",Nickelodeon Junior (720p)
