@@ -2,13 +2,13 @@
 
 Dépôt personnel de playlists IPTV maintenu et actualisé automatiquement.
 
-🕒 **Dernière vérification automatique :** `22/11/2026 à 07:16 (UTC+1)`
+🕒 **Dernière vérification automatique :** `22/11/2026 à 20:23 (UTC+1)`
 
 ## 📋 État des listes
 
 | Playlist | Fichier | Chaînes actives |
 | :--- | :--- | :---: |
-| Playlist Principale (FR / AR) | `ASUS-playlist_FR-AR.m3u` | **279** |
+| Playlist Principale (FR / AR) | `ASUS-playlist_FR-AR.m3u` | **283** |
 
 ## 🔄 Dernières chaînes actualisées
 
