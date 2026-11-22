@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/fr.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epg.pw/xmltv/epg_FR.xml.gz,https://epg.pw/xmltv/epg_AR.xml.gz"
 #######################################################################################Docs & Replay#######################################################################################################
-#EXTINF:-1 tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Top-Gear-Logo-2002.png" group-title="Docs & Replay",BBC Top Gear France (1080p)
+#EXTINF:-1 tvg-id="FR2400001TP" tvg-name="BBC Top Gear France" tvg-language="fr" tvg-country="FR" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Top-Gear-Logo-2002.png" group-title="Docs & Replay",BBC Top Gear France (1080p)
 https://amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR3900002FW_20260310T031715SQUARE.png" tvg-country="France" group-title="Docs & Replay",Au coeur du danger
 https://d2n1sxwoprdpda.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mu1qde0x8hs1m/AuCoeurDuDanger_FR.m3u8
