@@ -2,7 +2,7 @@
 
 Dépôt personnel de playlists IPTV maintenu et actualisé automatiquement.
 
-🕒 **Dernière vérification automatique :** `22/11/2026 à 20:23 (UTC+1)`
+🕒 **Dernière vérification automatique :** `23/11/2026 à 08:08 (UTC+1)`
 
 ## 📋 État des listes
 
