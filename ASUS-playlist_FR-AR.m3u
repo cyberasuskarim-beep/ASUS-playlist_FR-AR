@@ -44,8 +44,6 @@ https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Famg02162-newenconne
 https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Fpb-y25sd4ynarggo.akamaized.net%2Fv1%2Fmanifest%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fpb-y25sd4ynarggo%2F0882d351-2705-4cba-a2ef-2470b902f700%2F3.m3u8
 #EXTINF:-1 channel-id="FR1400005J7" tvg-id="FR1400005J7" tvg-chno="4422" tvg-name="Adrenaline Spica Life" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR1400005J7_20260929T041423SQUARE.png" group-title="Docs & Replay",Adrenaline Spica Life
 https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Fdxdyixudbt2pq.cloudfront.net%2Fv1%2Fmanifest%2F3722c60a815c199d9c0ef36c5b73da68a62b09d1%2Fpb-nwh187tu9f83i%2Fbf890dcb-ff2f-4bb9-a377-e852a7517511%2F0.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/GhwyNSZX/PLUTO-TV.jpg" id="PlutoTVInside.de@FR" group-title="Pluto TV",Pluto TV Inside
-https://jmp2.uk/plu-5f8ed3892ed7bb000741a1d2.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10243
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Futura-logo.jpg/330px-Futura-logo.jpg" tvg-country="France" group-title="Docs & Replay",Futura 2
@@ -249,8 +247,13 @@ https://carac5.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr1ct045l70mz/Noovo_Cinema.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/750g_logo.png/330px-750g_logo.png" tvg-country="France" group-title="Cinéma & +",750G
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10839
+
+
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR13000020W_20250819T032458SQUARE.png" tvg-country="France" group-title="Cinéma & +",100% Cinéma
-https://amg02162-amg02162c3-samsung-fr-8106.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02162-newenconnect-cinemachannel-samsungfr/playlist.m3u8
+https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Famg02162-amg02162c3-samsung-fr-8106.playouts.now.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2Famg02162-newenconnect-cinemachannel-samsungfr%2Fcb493e4f7b746f8792993f6cd3f740a0d10c63815412650412f51ece299d4e4680a2f1d3f52cb63608c0589d717409415b79c812ce1b5899d87ea3417c7a136d8ae9f23b85cc755ce0a3566e35b679194ffd0805c85e2b46f4c556488934be7c4534ed0a65597bcd9e01ef290f909f0b8b76378bb3dd7f396d390ec90c1fbcbf5ba0f8ff5e43c819f5e6034995265be79c43ccd514a581d05b8c578371a541c990f588ce45d381917ea856e46544007628cacd28c5cd08b5d8cb6d3fc8732d1c623f8aa297ed003d96577c52f9f2cecd099579d5a815b15f199a2dbd52de4ee006ab0db4af5aa392a8cb504837a3b6360b4cbbd183b5c801019448dcbfb3ad191598f2073644c67dc823595bfa9c9b4ef7a97297b230cbb060194aa8fb2380ad81aacbadd732f642cbc3e7d6394c5a116968ed4696bb5ffc0ce95798fa0e7b1c272aac9e468a87c94e0f66408b8157da6175d3b790a2ef3e04ee4f367bc14ec4693a06b45cedd7784f83f8095fcb4b3f8b3c29fe5c75b356fdac29e6d5a38f641594ae0ac6620d95d824dde416a12d1d5407a1fb2f5e3f2c37b0bc2365340840801f778a6155297974c44e3b3b4700a7737873018ef0ee739ac1e3211415c054295ad8717d7765fb66c509450c2f864b9dfc493cb20f2f29e9b02c1d7458d69effd2dc96fd4dbb298794bd21796f10239c23152a6be4b38f72f42c042b290ace5c3203f52c7276c7b985a5958965cbdc43af3b691b2a85d31f53065f762c5bcbc9268710b2dd4df9a8cb5acdfd845d10d66bed5246def5d86bb7bcd19e015fdefb02483fd98273950158ad7ce32286d67fcfa3155e526d322eecba14a911eaa5d5ad42b725ae5d0c6de57eafee8a9edf6544e882453527733b327b55736c41f8eddc6a0474fbaf658179e3f85ebd4d44395d12886261a34a2ecf7aeb401033ef52327678b44e8f06ff2c8f%2F56%2F854x480_1478083%2Findex.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR220000105_20250617T031603SQUARE.png" tvg-country="France" group-title="Cinéma & +",Action Totale
 https://pb-dklcfpa8kwk0j.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dklcfpa8kwk0j/master.m3u8?ads.ads_cdn=ak&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=
 %7BAPP_NAME%7D&ads.cdn=ak&ads.consent=%7BTC_STRING%7D&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=FR220000105&ads.ssai_vendor=SSSLIVE&pb_type=pb-
