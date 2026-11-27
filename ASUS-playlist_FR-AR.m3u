@@ -247,13 +247,8 @@ https://carac5.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr1ct045l70mz/Noovo_Cinema.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/750g_logo.png/330px-750g_logo.png" tvg-country="France" group-title="Cinéma & +",750G
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=10839
-
-
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR13000020W_20250819T032458SQUARE.png" tvg-country="France" group-title="Cinéma & +",100% Cinéma
 https://doubo-proxy.noshotbin.workers.dev/?url=https%3A%2F%2Famg02162-amg02162c3-samsung-fr-8106.playouts.now.amagi.tv%2Fts-eu-w1-n2%2Fplaylist%2Famg02162-newenconnect-cinemachannel-samsungfr%2Fcb493e4f7b746f8792993f6cd3f740a0d10c63815412650412f51ece299d4e4680a2f1d3f52cb63608c0589d717409415b79c812ce1b5899d87ea3417c7a136d8ae9f23b85cc755ce0a3566e35b679194ffd0805c85e2b46f4c556488934be7c4534ed0a65597bcd9e01ef290f909f0b8b76378bb3dd7f396d390ec90c1fbcbf5ba0f8ff5e43c819f5e6034995265be79c43ccd514a581d05b8c578371a541c990f588ce45d381917ea856e46544007628cacd28c5cd08b5d8cb6d3fc8732d1c623f8aa297ed003d96577c52f9f2cecd099579d5a815b15f199a2dbd52de4ee006ab0db4af5aa392a8cb504837a3b6360b4cbbd183b5c801019448dcbfb3ad191598f2073644c67dc823595bfa9c9b4ef7a97297b230cbb060194aa8fb2380ad81aacbadd732f642cbc3e7d6394c5a116968ed4696bb5ffc0ce95798fa0e7b1c272aac9e468a87c94e0f66408b8157da6175d3b790a2ef3e04ee4f367bc14ec4693a06b45cedd7784f83f8095fcb4b3f8b3c29fe5c75b356fdac29e6d5a38f641594ae0ac6620d95d824dde416a12d1d5407a1fb2f5e3f2c37b0bc2365340840801f778a6155297974c44e3b3b4700a7737873018ef0ee739ac1e3211415c054295ad8717d7765fb66c509450c2f864b9dfc493cb20f2f29e9b02c1d7458d69effd2dc96fd4dbb298794bd21796f10239c23152a6be4b38f72f42c042b290ace5c3203f52c7276c7b985a5958965cbdc43af3b691b2a85d31f53065f762c5bcbc9268710b2dd4df9a8cb5acdfd845d10d66bed5246def5d86bb7bcd19e015fdefb02483fd98273950158ad7ce32286d67fcfa3155e526d322eecba14a911eaa5d5ad42b725ae5d0c6de57eafee8a9edf6544e882453527733b327b55736c41f8eddc6a0474fbaf658179e3f85ebd4d44395d12886261a34a2ecf7aeb401033ef52327678b44e8f06ff2c8f%2F56%2F854x480_1478083%2Findex.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FR220000105_20250617T031603SQUARE.png" tvg-country="France" group-title="Cinéma & +",Action Totale
 https://pb-dklcfpa8kwk0j.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dklcfpa8kwk0j/master.m3u8?ads.ads_cdn=ak&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=
 %7BAPP_NAME%7D&ads.cdn=ak&ads.consent=%7BTC_STRING%7D&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=FR220000105&ads.ssai_vendor=SSSLIVE&pb_type=pb-
@@ -300,15 +295,6 @@ quality80.webp" tvg-country="France" group-title="Cinéma & +",Televisa Telenove
 https://40413a8d4fab4568b22187b5d7cd15c9.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-fr_Televisa/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/57694bb0-1807-4c01-8682-b01169d08cd1-width330-quality90.jpeg" tvg-country="France" group-title="Cinéma & +",Top Sci-Fi
 https://amg01796-amg01796c14-samsung-fr-5846.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-topscifi-samsungfr/playlist.m3u8
-#EXTINF:-1 tvg-tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_PARIS_PREMIERE.png" tgv-id="ParisPremiere.fr@SD" tvg-id="parispremiere.fr" group-title="Cinéma & +",Paris Premiere (720p)
-http://193.254.245.162/PARIS-PREMIERE/index.m3u8
-#EXTINF:-1 tvg-logo="https://companieslogo.com/img/orig/TFI.PA-8c6da426.png" tvg-id="TF1.fr@HD" group-title="Cinéma & +",TF1 HD (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://151.80.18.177:86/TF1_HD/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/T%C3%A9va_logo_2021.svg" tvg-id="Teva.fr@SD" group-title="Cinéma & +",Teva (1080p)
-http://145.239.5.177/356/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/4/4c/Serieclub_%282012%29.svg" tvg-id="SerieClub.fr@SD" group-title="Cinéma & +",Serie Club (720p)
-http://145.239.5.177/355/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Logo_Cin%C3%A9%2B_Classic_2011.svg" tvg-id="CinePlusClassic.fr@SD" group-title="Cinéma & +",Cine+ Classic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147/CineClassic/index.m3u8
@@ -322,15 +308,7 @@ http://151.80.18.177:86/Canal+_cinema_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png" tvg-id="CanalPlusSport360.fr@SD" group-title="Cinéma & +",Canal+ Sport 360
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://futbol9865.ultratv13.workers.dev/deportivo111/14.m3u8
-#EXTINF:-1 tvg-logo="https://app.ladn-data.eu/storage/uploads/companies/a70beb63-7a59-40c0-b097-b6428b18cd36.jpg" tvg-id="CStar.fr@SD" group-title="Cinéma & +",C Star (1080p)
-http://145.239.5.177/361/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/5/51/Logo_AB1_2021.svg" tvg-id="AB1.fr@SD" group-title="Cinéma & +",AB1 (720p)
-http://145.239.5.177/332/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Logo_6ter_2016.svg/330px-Logo_6ter_2016.svg.png" tvg-id="6ter.fr" tvg-country="France" group-title="Cinéma & +",6TER
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-6ter/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg/330px-Logo_M6_%282020%2C_fond_clair%29.svg.png" tvg-id="M6.fr" tvg-country="France" group-
-title="Cinéma & +",M6
-https://edge-fastly-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd#tvrz=Shaka&nolist
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/88/Syfy_HD_Logo_2017.png" tvg-id="SciFi.fr@HD" group-title="Cinéma & +",SciFi (720p)
 http://41.205.93.154/SYFY/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Syfy_Universal_%28cropped%29.png" tvg-id="Syfy.fr@SD" group-title="Cinéma & +",Syfy
